@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23051833e239dcd468890e168f9214a4, type: 3}
+  m_Name: NightmareOnMapleStreetChocoLanterns
+  m_EditorClassIdentifier: Assembly-CSharp::Recipe
+  recipeName: Nightmare On Maple Street Choco Lanterns
+  requiredIngredients:
+  - {fileID: 11400000, guid: d8fc989315c055b4290a487c43ca0e04, type: 2}
+  - {fileID: 11400000, guid: ef1b5b3e076532543a04a587e0693aae, type: 2}
+  - {fileID: 11400000, guid: 0182c814188dd32438deb9096ac506f4, type: 2}
+  - {fileID: 11400000, guid: 66f8902288c8fe747a908b55b70ab106, type: 2}
+  - {fileID: 11400000, guid: cfb37f051bffdd24891d04860dd066f4, type: 2}
+  resultPrefab: {fileID: 6477149994838571408, guid: eaa4906b8d49959488720aad98548890, type: 3}

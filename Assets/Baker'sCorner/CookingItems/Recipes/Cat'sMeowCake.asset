@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23051833e239dcd468890e168f9214a4, type: 3}
+  m_Name: Cat'sMeowCake
+  m_EditorClassIdentifier: Assembly-CSharp::Recipe
+  recipeName: Cat's Meow Cake
+  requiredIngredients:
+  - {fileID: 11400000, guid: f7e5053b61f0de046be94b481b937506, type: 2}
+  - {fileID: 11400000, guid: d8bbc157f7df1d841a2084557ef6017c, type: 2}
+  - {fileID: 11400000, guid: 7fa793696aee0ac4ca3b9441b38d563f, type: 2}
+  - {fileID: 11400000, guid: ee8c659e416da0a4b96fc1620d971571, type: 2}
+  resultPrefab: {fileID: 6953175559336000783, guid: ea3016ef883c16e499e18404be1e7cdd, type: 3}

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23051833e239dcd468890e168f9214a4, type: 3}
+  m_Name: PumpkinCookies
+  m_EditorClassIdentifier: Assembly-CSharp::Recipe
+  recipeName: Pumpkin Cookie
+  requiredIngredients:
+  - {fileID: 11400000, guid: f7e5053b61f0de046be94b481b937506, type: 2}
+  - {fileID: 11400000, guid: 0182c814188dd32438deb9096ac506f4, type: 2}
+  finalPanPrefab: {fileID: 5295337750807029495, guid: 2c354d722a493d9408c2af3fa76b83c8, type: 3}
+  resultPrefab: {fileID: 5496385481168835573, guid: 42c6742606ec9f94e9a7dc0d6763934f, type: 3}
+  burntPrefab: {fileID: 8730266068631566737, guid: 23e07402b4da70042bc4813881fa31d9, type: 3}
+  bakeTime: 15
+  recipeImage: {fileID: 0}

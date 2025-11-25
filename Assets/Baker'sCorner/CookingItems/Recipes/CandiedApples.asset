@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23051833e239dcd468890e168f9214a4, type: 3}
+  m_Name: CandiedApples
+  m_EditorClassIdentifier: Assembly-CSharp::Recipe
+  recipeName: Candied Apples
+  requiredIngredients:
+  - {fileID: 11400000, guid: 15452c9910dc7f64b9108f1479d1d55a, type: 2}
+  - {fileID: 11400000, guid: 6e1b72ff3b0d7344390a854759f3e1a9, type: 2}
+  - {fileID: 11400000, guid: 7fa793696aee0ac4ca3b9441b38d563f, type: 2}
+  resultPrefab: {fileID: 0}

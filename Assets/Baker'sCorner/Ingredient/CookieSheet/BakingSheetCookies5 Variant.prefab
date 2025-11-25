@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1471119061735915821
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4865326297743018382, guid: 1d8d52d08179c8f409a561e43c0f24a7,
+        type: 3}
+      propertyPath: m_Name
+      value: BakingSheetCookies5 Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 6949535897606297981, guid: 1d8d52d08179c8f409a561e43c0f24a7,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.9135
+      objectReference: {fileID: 0}
+    - target: {fileID: 6949535897606297981, guid: 1d8d52d08179c8f409a561e43c0f24a7,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 8.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 6949535897606297981, guid: 1d8d52d08179c8f409a561e43c0f24a7,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.957
+      objectReference: {fileID: 0}
+    - target: {fileID: 6949535897606297981, guid: 1d8d52d08179c8f409a561e43c0f24a7,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6949535897606297981, guid: 1d8d52d08179c8f409a561e43c0f24a7,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6949535897606297981, guid: 1d8d52d08179c8f409a561e43c0f24a7,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6949535897606297981, guid: 1d8d52d08179c8f409a561e43c0f24a7,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6949535897606297981, guid: 1d8d52d08179c8f409a561e43c0f24a7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6949535897606297981, guid: 1d8d52d08179c8f409a561e43c0f24a7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6949535897606297981, guid: 1d8d52d08179c8f409a561e43c0f24a7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects:
+    - {fileID: 7157716085138181693, guid: 1d8d52d08179c8f409a561e43c0f24a7, type: 3}
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4865326297743018382, guid: 1d8d52d08179c8f409a561e43c0f24a7,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2375751688690836999}
+  m_SourcePrefab: {fileID: 100100000, guid: 1d8d52d08179c8f409a561e43c0f24a7, type: 3}
+--- !u!1 &6336400313557551267 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4865326297743018382, guid: 1d8d52d08179c8f409a561e43c0f24a7,
+    type: 3}
+  m_PrefabInstance: {fileID: 1471119061735915821}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2375751688690836999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6336400313557551267}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 321a31543bc400f4ba65f43f1cb1d902, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BakingPan
+  totalScoopsNeeded: 6
+  finalPanPrefab: {fileID: 0}
+  scoopVFXPrefab: {fileID: 0}
