@@ -1,0 +1,24 @@
+
+=== Thu Nov 20 23:07:43 2025
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were added:
+  com.unity.modules.accessibility@1.0.0
+  com.unity.multiplayer.center@1.0.0
+The following packages were updated:
+  com.unity.ai.navigation from version 1.1.5 to 2.0.9
+  com.unity.collab-proxy from version 2.2.0 to 2.9.3
+  com.unity.ide.rider from version 3.0.27 to 3.0.37
+  com.unity.ide.visualstudio from version 2.0.22 to 2.0.23
+  com.unity.render-pipelines.universal from version 14.0.8 to 17.2.0
+  com.unity.test-framework from version 1.1.33 to 1.6.0
+  com.unity.timeline from version 1.7.6 to 1.8.9
+  com.unity.ugui from version 1.0.0 to 2.0.0
+  com.unity.visualscripting from version 1.9.1 to 1.9.7
+  com.unity.xr.interaction.toolkit from version 2.5.2 to 3.2.1
+  com.unity.xr.management from version 4.4.1 to 4.5.1
+  com.unity.xr.openxr from version 1.10.0 to 1.15.1
+The following packages were removed:
+  com.unity.textmeshpro@3.0.8

@@ -1,0 +1,996 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.2/respin/6000.2.6f2-cc51a95c03' branch; Version is '6000.2.6f2 (4a4dcaec6541) revision 4869578'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-aweso" at "2025-11-25T23:11:43.1309451Z"
+OS: 'Windows 11  (10.0.26200) 64bit Core' Language: 'en' Physical Memory: 31967 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2025-11-25T23:11:43Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.2.6f2\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/aweso/Documents/SugarBound.07
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63685
+-licensingIpc
+LicenseClient-aweso
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/aweso/Documents/SugarBound.07
+C:/Users/aweso/Documents/SugarBound.07
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [250852]  Target information:
+
+Player connection [250852]  * "[IP] 192.168.1.127 [Port] 0 [Flags] 2 [Guid] 4017454509 [EditorId] 4017454509 [Version] 1048832 [Id] WindowsEditor(7,DevinPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [250852] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [250852] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 177932, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+Library Redirect Path: Library/
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.3+a4e98f1
+  Session Id:              7ca2ec2e4e544e029cb4fe3494f32735
+  Correlation Id:          d9de10843b6a6c7bf7a225ae0b31dfa6
+  External correlation Id: 2096622007933019739
+  Machine Id:              cPCzQz9axXHQmewSXrMKmPRaxqY=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-aweso" (connect: 0.00s, validation: 0.00s, handshake: 0.05s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-aweso-notifications" at "2025-11-25T23:11:43.1829604Z"
+[Licensing::Module] Licensing Background thread has ended after 0.05s
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 637.52 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.2.6f2 (4a4dcaec6541)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/aweso/Documents/SugarBound.07/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Ti (ID=0x2803)
+    Vendor:   NVIDIA
+    VRAM:     7949 MB
+    Driver:   32.0.15.8157
+Shader 'Hidden/Universal Render Pipeline/StencilDeferred': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Hidden/Universal Render Pipeline/ClusterDeferred': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/Nature/SpeedTree7': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/Nature/SpeedTree7': dependency 'BillboardShader' shader 'Universal Render Pipeline/Nature/SpeedTree7 Billboard' not found
+Shader 'Hidden/Universal Render Pipeline/FallbackError': fallback shader 'Hidden/Core/FallbackError' not found
+Shader 'Universal Render Pipeline/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/Particles/Unlit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/Unlit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/VR/SpatialMapping/Occlusion': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/VR/SpatialMapping/Wireframe': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/Simple Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/Particles/Simple Lit': fallback shader 'Universal Render Pipeline/Particles/Unlit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/Simple Lit' not found
+Shader 'Universal Render Pipeline/Nature/SpeedTree7 Billboard': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/Complex Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/Nature/SpeedTree8': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/Baked Lit': fallback shader 'Universal Render Pipeline/Unlit' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56292
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 1375641944432-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.242519 seconds.
+- Loaded All Assemblies, in  7.822 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 255 ms
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.585 seconds
+Domain Reload Profiling: 8405ms
+	BeginReloadAssembly (7022ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (285ms)
+	LoadAllAssembliesAndSetupDomain (465ms)
+		LoadAssemblies (7037ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (443ms)
+			TypeCache.Refresh (441ms)
+				TypeCache.ScanAssembly (430ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (586ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (543ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (341ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (48ms)
+			ProcessInitializeOnLoadAttributes (100ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  7.338 seconds
+Refreshing native plugins compatible for Editor in 8.62 ms, found 9 plugins.
+Shader 'Universal Render Pipeline/Terrain/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/Terrain/Lit': dependency 'AddPassShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)' not found
+Shader 'Universal Render Pipeline/Terrain/Lit': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
+Shader 'Universal Render Pipeline/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal@1e1527b3a17b/Runtime/Data/UniversalRenderPipelineAsset.cs:432)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@1e1527b3a17b/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 432)
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.946 seconds
+Domain Reload Profiling: 8270ms
+	BeginReloadAssembly (157ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (7094ms)
+		LoadAssemblies (6958ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (223ms)
+			TypeCache.Refresh (163ms)
+				TypeCache.ScanAssembly (149ms)
+			BuildScriptInfoCaches (48ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (947ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (747ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (115ms)
+			ProcessInitializeOnLoadAttributes (508ms)
+			ProcessInitializeOnLoadMethodAttributes (107ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 9.16 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7168 unused Assets / (4.8 MB). Loaded Objects now: 7885.
+Memory consumption went from 139.8 MB to 135.1 MB.
+Total: 8.394200 ms (FindLiveObjects: 0.704600 ms CreateObjectMapping: 0.382400 ms MarkObjects: 4.807600 ms  DeleteObjects: 2.498500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 500814.022851 seconds.
+  path: Assets/DefaultVolumeProfile.asset
+  artifactKey: Guid(61e2e18b010e63c4a8f87ae400860a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DefaultVolumeProfile.asset using Guid(61e2e18b010e63c4a8f87ae400860a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6168cebe15a72d3051b483cc71259304') in 0.0146554 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 443.783907 seconds.
+  path: Assets/Scenes/Create-with-VR-Starter-Scene.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Create-with-VR-Starter-Scene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a9dadbb5964382f54fc848a4a91a0a00') in 0.0006412 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.557943 seconds.
+  path: Assets/Building/Rooms
+  artifactKey: Guid(5480551fe860bff41b007a54344ceb1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Rooms using Guid(5480551fe860bff41b007a54344ceb1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '380e6c23dcef1f64f0ebd436d581b4e7') in 0.0007918 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.842850 seconds.
+  path: Assets/Building/Floor
+  artifactKey: Guid(eab0bd5b4b7337340b3eb244acbe48f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Floor using Guid(eab0bd5b4b7337340b3eb244acbe48f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f5e27b6682258ea0eb723c515b4e562e') in 0.0005515 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.921318 seconds.
+  path: Assets/Baker'sCorner/CookingItems
+  artifactKey: Guid(0dcc4c702e6ecb747a9b14b989b690ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/CookingItems using Guid(0dcc4c702e6ecb747a9b14b989b690ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '35b28bf1774555ab1b73913146af73c1') in 0.0006086 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.991430 seconds.
+  path: Assets/Baker'sCorner/CookingItems/Ingredients
+  artifactKey: Guid(31b580438856eff449356ae9ec0bde3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/CookingItems/Ingredients using Guid(31b580438856eff449356ae9ec0bde3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b057ea010ae60a5f8c718fd9e785bc7f') in 0.0005516 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045429 seconds.
+  path: Assets/Baker'sCorner/CookingItems/Ingredients/Apple.asset
+  artifactKey: Guid(15452c9910dc7f64b9108f1479d1d55a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/CookingItems/Ingredients/Apple.asset using Guid(15452c9910dc7f64b9108f1479d1d55a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'da078a822f980b624b822fe5ccbb8f5a') in 0.0012024 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Baker'sCorner/CookingItems/Ingredients/cocoaPowder.asset
+  artifactKey: Guid(cfb37f051bffdd24891d04860dd066f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/CookingItems/Ingredients/cocoaPowder.asset using Guid(cfb37f051bffdd24891d04860dd066f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9f389e1734439d78c97dcfb20469c586') in 0.0012533 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Baker'sCorner/CookingItems/Ingredients/Egg.asset
+  artifactKey: Guid(f7e5053b61f0de046be94b481b937506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/CookingItems/Ingredients/Egg.asset using Guid(f7e5053b61f0de046be94b481b937506) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '249ed4ed2634f6cb5556ce76d8028bf6') in 0.0100446 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Baker'sCorner/CookingItems/Ingredients/Sugar.asset
+  artifactKey: Guid(6e1b72ff3b0d7344390a854759f3e1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/CookingItems/Ingredients/Sugar.asset using Guid(6e1b72ff3b0d7344390a854759f3e1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9049d20bd2d8e86e4455b762541d1b1d') in 0.0010868 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Baker'sCorner/CookingItems/Ingredients/test.asset
+  artifactKey: Guid(f12fc88e58ff280468d54248894543a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/CookingItems/Ingredients/test.asset using Guid(f12fc88e58ff280468d54248894543a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19ee2eade5aa21692e1cf0948950efcf') in 0.000974 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Baker'sCorner/CookingItems/Ingredients/Milk.asset
+  artifactKey: Guid(ef1b5b3e076532543a04a587e0693aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/CookingItems/Ingredients/Milk.asset using Guid(ef1b5b3e076532543a04a587e0693aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3fcb9c68e0abde8e06337323473aaf7e') in 0.0010755 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Baker'sCorner/CookingItems/Ingredients/Vanilla.asset
+  artifactKey: Guid(66f8902288c8fe747a908b55b70ab106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/CookingItems/Ingredients/Vanilla.asset using Guid(66f8902288c8fe747a908b55b70ab106) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '61ba57cc2d15479e2c3e20a87b1c7ce4') in 0.0010843 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Baker'sCorner/CookingItems/Ingredients/Molasses.asset
+  artifactKey: Guid(79add939a05cd6940878296fe234fa00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/CookingItems/Ingredients/Molasses.asset using Guid(79add939a05cd6940878296fe234fa00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd93f0dd0dca324b627de2a40b4b299c5') in 0.0010166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Baker'sCorner/CookingItems/Ingredients/MiniPumpkins.asset
+  artifactKey: Guid(d8fc989315c055b4290a487c43ca0e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/CookingItems/Ingredients/MiniPumpkins.asset using Guid(d8fc989315c055b4290a487c43ca0e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '249be9212eed44eb721027ed4d23b4d3') in 0.0009531 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Baker'sCorner/CookingItems/Ingredients/Ginger.asset
+  artifactKey: Guid(270319a40f5616948b9720acf7695805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/CookingItems/Ingredients/Ginger.asset using Guid(270319a40f5616948b9720acf7695805) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef8f609189ebb03530751e08380ca7f5') in 0.0009778 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Baker'sCorner/CookingItems/Ingredients/cinnamon.asset
+  artifactKey: Guid(c43f6f92a9387144bb73f73244ac3308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/CookingItems/Ingredients/cinnamon.asset using Guid(c43f6f92a9387144bb73f73244ac3308) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b98f0d9a7b7abe544150660c58cb594a') in 0.0010184 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Baker'sCorner/CookingItems/Ingredients/PopcornBag.asset
+  artifactKey: Guid(225d4fc679697c84eb378bc68a1f0240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/CookingItems/Ingredients/PopcornBag.asset using Guid(225d4fc679697c84eb378bc68a1f0240) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '92f2ee5587abd955daabcdd96248761d') in 0.0010002 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Baker'sCorner/CookingItems/Ingredients/Jam.asset
+  artifactKey: Guid(abd5ce7e3b1931244b60d2d69f71e6b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/CookingItems/Ingredients/Jam.asset using Guid(abd5ce7e3b1931244b60d2d69f71e6b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5dff22ceda7bc7bd207496bcd2b952a0') in 0.0009541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.969171 seconds.
+  path: Assets/Baker'sCorner/FinishedDishes/CatsMeowCake/M_ladyFingers.mat
+  artifactKey: Guid(1dbbea84fa189bb4fbdfffd5a961c040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/FinishedDishes/CatsMeowCake/M_ladyFingers.mat using Guid(1dbbea84fa189bb4fbdfffd5a961c040) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)CommandBuffer: temporary render texture  not found while executing  (Copy source)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rendering.ScriptableRenderContext:Submit ()
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.UniversalCameraData) (at ./Library/PackageCache/com.unity.render-pipelines.universal@1e1527b3a17b/Runtime/UniversalRenderPipeline.cs:891)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera,UnityEngine.Rendering.Universal.UniversalAdditionalCameraData&,bool) (at ./Library/PackageCache/com.unity.render-pipelines.universal@1e1527b3a17b/Runtime/UniversalRenderPipeline.cs:691)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera,bool) (at ./Library/PackageCache/com.unity.render-pipelines.universal@1e1527b3a17b/Runtime/UniversalRenderPipeline.cs:666)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@1e1527b3a17b/Runtime/UniversalRenderPipeline.cs:483)
+UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,UnityEngine.Object,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEngine.Camera:Render ()
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool)
+UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[./Library/PackageCache/com.unity.render-pipelines.universal@1e1527b3a17b/Runtime/UniversalRenderPipeline.cs line 891]
+
+CommandBuffer: temporary render texture  not found while executing  (Copy destination)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rendering.ScriptableRenderContext:Submit ()
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.UniversalCameraData) (at ./Library/PackageCache/com.unity.render-pipelines.universal@1e1527b3a17b/Runtime/UniversalRenderPipeline.cs:891)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera,UnityEngine.Rendering.Universal.UniversalAdditionalCameraData&,bool) (at ./Library/PackageCache/com.unity.render-pipelines.universal@1e1527b3a17b/Runtime/UniversalRenderPipeline.cs:691)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera,bool) (at ./Library/PackageCache/com.unity.render-pipelines.universal@1e1527b3a17b/Runtime/UniversalRenderPipeline.cs:666)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@1e1527b3a17b/Runtime/UniversalRenderPipeline.cs:483)
+UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,UnityEngine.Object,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEngine.Camera:Render ()
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool)
+UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[./Library/PackageCache/com.unity.render-pipelines.universal@1e1527b3a17b/Runtime/UniversalRenderPipeline.cs line 891]
+
+ -> (artifact id: 'f4f5b05089f28391d07b03163f0b582f') in 0.5164723 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 120.550600 seconds.
+  path: Assets/Baker'sCorner/FinishedDishes/NightmareOnMapleStreet/ChocoLanternsPainted.prefab
+  artifactKey: Guid(eaa4906b8d49959488720aad98548890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/FinishedDishes/NightmareOnMapleStreet/ChocoLanternsPainted.prefab using Guid(eaa4906b8d49959488720aad98548890) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1660f6e806175f611d557b77974ecaeb') in 0.0567046 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 87
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Baker'sCorner/FinishedDishes/GingerbreadGhosts
+  artifactKey: Guid(c7404295489ea40de88f1a39491bda44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/FinishedDishes/GingerbreadGhosts using Guid(c7404295489ea40de88f1a39491bda44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '25d2031fbfd5e316e22a3a95fbfddaa1') in 0.0003762 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Baker'sCorner/FinishedDishes/NightCrawlers
+  artifactKey: Guid(e5de951c04f534f56a0304e9c4c097c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/FinishedDishes/NightCrawlers using Guid(e5de951c04f534f56a0304e9c4c097c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '17351126a06bcad08f77b96681bab78d') in 0.0004737 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Baker'sCorner/FinishedDishes/DevilsChocoCake/SM_TheDevilsChocoCake_ChocoCake_AlbedoTransparency.png
+  artifactKey: Guid(ae95e55d8a7ca4b718b71bbbad0e2aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/FinishedDishes/DevilsChocoCake/SM_TheDevilsChocoCake_ChocoCake_AlbedoTransparency.png using Guid(ae95e55d8a7ca4b718b71bbbad0e2aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+ -> (artifact id: '703f8ce34a189a3406e6574d76f59885') in 0.0212507 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Baker'sCorner/FinishedDishes/NightCrawlers/SM_NightCrawlers_Apple9_MetallicSmoothness.png
+  artifactKey: Guid(28eafedb5be3b42aca8a1b534ecc0dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/FinishedDishes/NightCrawlers/SM_NightCrawlers_Apple9_MetallicSmoothness.png using Guid(28eafedb5be3b42aca8a1b534ecc0dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '10c6a3413ca49a84bda7118547e5ada6') in 0.0077348 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Baker'sCorner/FinishedDishes/NightmareOnMapleStreet/SM_ChocoLanterns_DessertPlate9_AlbedoTransparency.png
+  artifactKey: Guid(411d87737f231458daf063e665c166a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/FinishedDishes/NightmareOnMapleStreet/SM_ChocoLanterns_DessertPlate9_AlbedoTransparency.png using Guid(411d87737f231458daf063e665c166a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '415e8a11bde0ab1839d42c4460124214') in 0.0124132 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Baker'sCorner/FinishedDishes/NightmareOnMapleStreet/SM_ChocoLanterns_pumpkinFilling_AlbedoTransparency.png
+  artifactKey: Guid(4add1e2fca38848019b27b8658618da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/FinishedDishes/NightmareOnMapleStreet/SM_ChocoLanterns_pumpkinFilling_AlbedoTransparency.png using Guid(4add1e2fca38848019b27b8658618da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb02b45a9e139139e60cc0d99cbf9205') in 0.0127171 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Baker'sCorner/FinishedDishes/DevilsChocoCake/M_DevilsChocoCakePlate.mat
+  artifactKey: Guid(8232764d9d44f3149b6dba68dc111fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/FinishedDishes/DevilsChocoCake/M_DevilsChocoCakePlate.mat using Guid(8232764d9d44f3149b6dba68dc111fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f409f9168680d3f12d0b7296d479ba3c') in 0.0201317 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Baker'sCorner/FinishedDishes/NightCrawlers/SM_NightCrawlers_Apple9_Normal.png
+  artifactKey: Guid(fd8ead31a234445cf9da821f724e3efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/FinishedDishes/NightCrawlers/SM_NightCrawlers_Apple9_Normal.png using Guid(fd8ead31a234445cf9da821f724e3efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d44c9cbe2805188e25f7dbe196b68ab') in 0.0166174 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Baker'sCorner/FinishedDishes/GingerbreadGhosts/M_ChocoEyes.mat
+  artifactKey: Guid(b44cbcc2a0039784a8fa57eb0799e72c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/FinishedDishes/GingerbreadGhosts/M_ChocoEyes.mat using Guid(b44cbcc2a0039784a8fa57eb0799e72c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'deeba2535571d6f6e5346c0525d282dc') in 0.0214995 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Baker'sCorner/FinishedDishes/NightCrawlers/SM_NightCrawlers_Drizzle1_MetallicSmoothness.png
+  artifactKey: Guid(806863c6312ef4831bc3a26b381dbeb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/FinishedDishes/NightCrawlers/SM_NightCrawlers_Drizzle1_MetallicSmoothness.png using Guid(806863c6312ef4831bc3a26b381dbeb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '88053f48583566526fedb0ae031f4d3c') in 0.0058368 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Baker'sCorner/FinishedDishes/NightmareOnMapleStreet/SM_ChocoLanterns_pumpkinFilling_Normal.png
+  artifactKey: Guid(c417bc51997384675b6a33cb578aad9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/FinishedDishes/NightmareOnMapleStreet/SM_ChocoLanterns_pumpkinFilling_Normal.png using Guid(c417bc51997384675b6a33cb578aad9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8af47b2ef9f5ecd32b63ab8019610c60') in 0.0121685 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Baker'sCorner/FinishedDishes/NightmareOnMapleStreet/SM_ChocoLanterns_pumpkinFilling_MetallicSmoothness.png
+  artifactKey: Guid(851c5796685924a39837cd20c4e866ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/FinishedDishes/NightmareOnMapleStreet/SM_ChocoLanterns_pumpkinFilling_MetallicSmoothness.png using Guid(851c5796685924a39837cd20c4e866ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '10e088e5c8a4bb25e3d0a3b77bd2cdcb') in 0.0055525 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Baker'sCorner/FinishedDishes/DevilsChocoCake/TheDevilsChocoCake.fbx
+  artifactKey: Guid(2eaf3ee47e1a34cc08f3a1e43e6460a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/FinishedDishes/DevilsChocoCake/TheDevilsChocoCake.fbx using Guid(2eaf3ee47e1a34cc08f3a1e43e6460a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cead8794d29abc1baa2f4e8af1971e98') in 0.3146208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Baker'sCorner/FinishedDishes/GingerbreadGhosts/GingerbreadGhosts.prefab
+  artifactKey: Guid(c8213b2e82e80554bb29a395f169b559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/FinishedDishes/GingerbreadGhosts/GingerbreadGhosts.prefab using Guid(c8213b2e82e80554bb29a395f169b559) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '91c572419bd82801bfd792d40d87d07f') in 0.0447539 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 249
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Baker'sCorner/FinishedDishes/GingerbreadGhosts/SM_GingerbreadGhosts_ChocoChips_AlbedoTransparency.png
+  artifactKey: Guid(3ba51d11b8cd746a48e843e23a6ce56a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/FinishedDishes/GingerbreadGhosts/SM_GingerbreadGhosts_ChocoChips_AlbedoTransparency.png using Guid(3ba51d11b8cd746a48e843e23a6ce56a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '50ccd0d20081676f89b7d2d426c4a249') in 0.0127076 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Baker'sCorner/FinishedDishes/NightmareOnMapleStreet/SM_ChocoLanterns_Pumpkin_AlbedoTransparency.png
+  artifactKey: Guid(8044391ea079643c5a3b04e04c766a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/FinishedDishes/NightmareOnMapleStreet/SM_ChocoLanterns_Pumpkin_AlbedoTransparency.png using Guid(8044391ea079643c5a3b04e04c766a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be27558434ce8e5b61a9da1888b1b7ce') in 0.0124497 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Baker'sCorner/FinishedDishes/GingerbreadGhosts/M_GingerbreadGhosts.mat
+  artifactKey: Guid(613b92e41d20a0f4ebf6cb439ada2ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/FinishedDishes/GingerbreadGhosts/M_GingerbreadGhosts.mat using Guid(613b92e41d20a0f4ebf6cb439ada2ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3dca9ec28a64d6896a7725d109f57c70') in 0.0158419 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Baker'sCorner/FinishedDishes/DevilsChocoCake/M_DevilsChocoCakeTopping.mat
+  artifactKey: Guid(bee9976562a0eea41ae080dbe0f06188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/FinishedDishes/DevilsChocoCake/M_DevilsChocoCakeTopping.mat using Guid(bee9976562a0eea41ae080dbe0f06188) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b9179fe89d20a113f77b97e21a4bffba') in 0.0195879 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Baker'sCorner/FinishedDishes/NightCrawlers/M_NightApples.mat
+  artifactKey: Guid(724ea38c2d3a84d4e81458fe874d0b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/FinishedDishes/NightCrawlers/M_NightApples.mat using Guid(724ea38c2d3a84d4e81458fe874d0b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '002c4eb70971e6c17a69facb52e77843') in 0.016554 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Baker'sCorner/FinishedDishes/NightCrawlers/NightCrawlers.prefab
+  artifactKey: Guid(9635b1300c213944589a887dd692fb76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/FinishedDishes/NightCrawlers/NightCrawlers.prefab using Guid(9635b1300c213944589a887dd692fb76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f0881e637e7eada2d476f4691b6c0505') in 0.1155891 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 290
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Baker'sCorner/FinishedDishes/GingerbreadGhosts/SM_GingerbreadGhosts_GingerBread_AlbedoTransparency.png
+  artifactKey: Guid(25865745103174a24847f2a05a1e1b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/FinishedDishes/GingerbreadGhosts/SM_GingerbreadGhosts_GingerBread_AlbedoTransparency.png using Guid(25865745103174a24847f2a05a1e1b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cc540040f05bac7a2c9d0fbbcbe4d387') in 0.0126525 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Baker'sCorner/FinishedDishes/GingerbreadGhosts/SM_GingerbreadGhosts_DessertPlate9_MetallicSmoothness.png
+  artifactKey: Guid(9368cbe3a1b4341feacfe0103451ead9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/FinishedDishes/GingerbreadGhosts/SM_GingerbreadGhosts_DessertPlate9_MetallicSmoothness.png using Guid(9368cbe3a1b4341feacfe0103451ead9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ac516445cfdb42b82a0d5e2d21fc1b6e') in 0.005188 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Baker'sCorner/FinishedDishes/GingerbreadGhosts/SM_GingerbreadGhosts_ChocoChips_MetallicSmoothness.png
+  artifactKey: Guid(01b474ded38da41f8b157df05ace27df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/FinishedDishes/GingerbreadGhosts/SM_GingerbreadGhosts_ChocoChips_MetallicSmoothness.png using Guid(01b474ded38da41f8b157df05ace27df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '47ca6920b0f88bd36ab49c1e68a6e1e7') in 0.0056463 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Baker'sCorner/FinishedDishes/GingerbreadGhosts/SM_GingerbreadGhosts_DessertPlate9_AlbedoTransparency.png
+  artifactKey: Guid(0afb47791ca4b445eb39d2dcff417ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/FinishedDishes/GingerbreadGhosts/SM_GingerbreadGhosts_DessertPlate9_AlbedoTransparency.png using Guid(0afb47791ca4b445eb39d2dcff417ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6d463931eadc0ccd16c5c1c6a87967fa') in 0.0116816 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Baker'sCorner/FinishedDishes/DevilsChocoCake/SM_TheDevilsChocoCake_DessertPlate9_AlbedoTransparency.png
+  artifactKey: Guid(701c4ba52c46046c2be653ab2a5a335b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/FinishedDishes/DevilsChocoCake/SM_TheDevilsChocoCake_DessertPlate9_AlbedoTransparency.png using Guid(701c4ba52c46046c2be653ab2a5a335b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4e100a066fad32e5ce622b9c4734440c') in 0.0117093 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Baker'sCorner/FinishedDishes/NightCrawlers/SM_NightCrawlers_GummyWorm1_Normal.png
+  artifactKey: Guid(ee6f241a530034bfc8b1b4ca01660ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/FinishedDishes/NightCrawlers/SM_NightCrawlers_GummyWorm1_Normal.png using Guid(ee6f241a530034bfc8b1b4ca01660ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '288ff1876295835c70979e5e28a02f81') in 0.0132623 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Baker'sCorner/FinishedDishes/GingerbreadGhosts/SM_GingerbreadGhosts_GingerBread_Normal.png
+  artifactKey: Guid(821840738aed84377ba76f4f2aee9608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/FinishedDishes/GingerbreadGhosts/SM_GingerbreadGhosts_GingerBread_Normal.png using Guid(821840738aed84377ba76f4f2aee9608) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a49c070887c65eeff239e723f00da97d') in 0.0135012 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013349 seconds.
+  path: Assets/Baker'sCorner/FinishedDishes/NightCrawlers/NightCrawlers.fbx
+  artifactKey: Guid(df70c62166d6d425aae52b68ef338f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/FinishedDishes/NightCrawlers/NightCrawlers.fbx using Guid(df70c62166d6d425aae52b68ef338f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8eb5034a61e1c80552bdc63b4cd6cd31') in 0.2232661 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 153
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Baker'sCorner/FinishedDishes/DevilsChocoCake
+  artifactKey: Guid(07a4b076985b24b8db2afcaa206d75d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/FinishedDishes/DevilsChocoCake using Guid(07a4b076985b24b8db2afcaa206d75d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3d74a905d73ca1bf0e9562fd095fe72c') in 0.0003672 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Baker'sCorner/FinishedDishes/DevilsChocoCake/TheDevilsChocoCake.prefab
+  artifactKey: Guid(6ff44f75967170f4994355847d5f63d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/FinishedDishes/DevilsChocoCake/TheDevilsChocoCake.prefab using Guid(6ff44f75967170f4994355847d5f63d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6aba11e74d7fcdf1ca0243687c25d906') in 0.0324099 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 66
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Baker'sCorner/FinishedDishes/NightmareOnMapleStreet/M_LanternsPlate.mat
+  artifactKey: Guid(529fd02192cb2874788334df6ca9470e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/FinishedDishes/NightmareOnMapleStreet/M_LanternsPlate.mat using Guid(529fd02192cb2874788334df6ca9470e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '316ba7abc829fcdc7e0d0fb4ff941ea1') in 0.0148486 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Baker'sCorner/FinishedDishes/DevilsChocoCake/SM_TheDevilsChocoCake_DessertPlate9_MetallicSmoothness.png
+  artifactKey: Guid(2447c19c9372348b0a95d480238e5a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/FinishedDishes/DevilsChocoCake/SM_TheDevilsChocoCake_DessertPlate9_MetallicSmoothness.png using Guid(2447c19c9372348b0a95d480238e5a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6d2fc25508ff6b07e99595a55d2700a0') in 0.0060158 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Baker'sCorner/FinishedDishes/NightCrawlers/SM_NightCrawlers_Drizzle1_Normal.png
+  artifactKey: Guid(680d4c9163ae24985ab54bcd151e7186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/FinishedDishes/NightCrawlers/SM_NightCrawlers_Drizzle1_Normal.png using Guid(680d4c9163ae24985ab54bcd151e7186) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b598ebc96d314bdf09afdf74f4be7b0') in 0.0119984 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Baker'sCorner/FinishedDishes/NightCrawlers/SM_NightCrawlers_DessertPlate9_AlbedoTransparency.png
+  artifactKey: Guid(aced693f8fcba4bafa9ec6ce1689a929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/FinishedDishes/NightCrawlers/SM_NightCrawlers_DessertPlate9_AlbedoTransparency.png using Guid(aced693f8fcba4bafa9ec6ce1689a929) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f1ac33a8d2fbad1ec1de62686bf82901') in 0.0125982 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Baker'sCorner/FinishedDishes/NightmareOnMapleStreet
+  artifactKey: Guid(a4b3fa6541a22443380f9f5eccb513de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/FinishedDishes/NightmareOnMapleStreet using Guid(a4b3fa6541a22443380f9f5eccb513de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'acabcd6414168f368ac983ba649220ba') in 0.0004842 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Baker'sCorner/FinishedDishes/NightCrawlers/M_PlateNight.mat
+  artifactKey: Guid(ec5341f23e15daa43b29ee5c2a5ca8e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/FinishedDishes/NightCrawlers/M_PlateNight.mat using Guid(ec5341f23e15daa43b29ee5c2a5ca8e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e8755909af63bf936ede9fcc69915ce') in 0.0151326 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Baker'sCorner/FinishedDishes/NightCrawlers/SM_NightCrawlers_DessertPlate9_MetallicSmoothness.png
+  artifactKey: Guid(1fe905d3af2414070a5da3e565098791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/FinishedDishes/NightCrawlers/SM_NightCrawlers_DessertPlate9_MetallicSmoothness.png using Guid(1fe905d3af2414070a5da3e565098791) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '17d753a8c2cba211694b9030373b2518') in 0.0060979 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Baker'sCorner/FinishedDishes/NightCrawlers/SM_NightCrawlers_Drizzle1_AlbedoTransparency.png
+  artifactKey: Guid(97eca248d61c441ccb0c62463dbd9418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/FinishedDishes/NightCrawlers/SM_NightCrawlers_Drizzle1_AlbedoTransparency.png using Guid(97eca248d61c441ccb0c62463dbd9418) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '199647e8efd55b5fd4caa93f90d723e6') in 0.0120768 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Baker'sCorner/FinishedDishes/DevilsChocoCake/SM_TheDevilsChocoCake_ChocoCake_MetallicSmoothness.png
+  artifactKey: Guid(f0c7429e666194b6d8fd344b705e8832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/FinishedDishes/DevilsChocoCake/SM_TheDevilsChocoCake_ChocoCake_MetallicSmoothness.png using Guid(f0c7429e666194b6d8fd344b705e8832) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ce80ba2c82dbb31cda320519c144ab58') in 0.0065685 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Baker'sCorner/FinishedDishes/DevilsChocoCake/SM_TheDevilsChocoCake_CakeTopping_Normal.png
+  artifactKey: Guid(1e5f56bbeea6045ae8891d8ce80b06ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/FinishedDishes/DevilsChocoCake/SM_TheDevilsChocoCake_CakeTopping_Normal.png using Guid(1e5f56bbeea6045ae8891d8ce80b06ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a97545546e2e0004fb5c406f7d395a9') in 0.0129057 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Baker'sCorner/FinishedDishes/NightCrawlers/SM_NightCrawlers_Apple9_AlbedoTransparency.png
+  artifactKey: Guid(8a1319e44b000446f8668e775e0fd3b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/FinishedDishes/NightCrawlers/SM_NightCrawlers_Apple9_AlbedoTransparency.png using Guid(8a1319e44b000446f8668e775e0fd3b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aced8e022d6b4fd35827a58525b4d85f') in 0.0127364 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Baker'sCorner/FinishedDishes/NightmareOnMapleStreet/SM_ChocoLanterns_DessertPlate9_Normal.png
+  artifactKey: Guid(dd47ea65eaeee46b7945404fe4674cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/FinishedDishes/NightmareOnMapleStreet/SM_ChocoLanterns_DessertPlate9_Normal.png using Guid(dd47ea65eaeee46b7945404fe4674cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e3bff0b03ee8e3821ab8d79796b7289') in 0.0125709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Baker'sCorner/FinishedDishes/NightmareOnMapleStreet/SM_ChocoLanterns_Pumpkin_Normal.png
+  artifactKey: Guid(b40c123854e694aa7afb160eef6348c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/FinishedDishes/NightmareOnMapleStreet/SM_ChocoLanterns_Pumpkin_Normal.png using Guid(b40c123854e694aa7afb160eef6348c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '14b995c28f4db0137c0b4f8dbfb9b81e') in 0.0142149 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Baker'sCorner/FinishedDishes/DevilsChocoCake/SM_TheDevilsChocoCake_CakeTopping_AlbedoTransparency.png
+  artifactKey: Guid(c1a3a821ac1a84f59b15208cd0a3719d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/FinishedDishes/DevilsChocoCake/SM_TheDevilsChocoCake_CakeTopping_AlbedoTransparency.png using Guid(c1a3a821ac1a84f59b15208cd0a3719d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7090dd6b9098ebef62e73d278ae128b3') in 0.0108524 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Baker'sCorner/FinishedDishes/NightmareOnMapleStreet/SM_ChocoLanterns.fbx
+  artifactKey: Guid(8d4dc4bf8c1da4261809362c206e0099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/FinishedDishes/NightmareOnMapleStreet/SM_ChocoLanterns.fbx using Guid(8d4dc4bf8c1da4261809362c206e0099) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '41c0101ff44505b040b88e7d9e480e59') in 0.044152 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 42
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Baker'sCorner/FinishedDishes/NightmareOnMapleStreet/ChocoLanterns.fbx
+  artifactKey: Guid(826a25124dfab4ab9a1a69c296b51c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/FinishedDishes/NightmareOnMapleStreet/ChocoLanterns.fbx using Guid(826a25124dfab4ab9a1a69c296b51c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4df4016756f4a29e3905b7a25f659fce') in 0.0466982 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 42
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Baker'sCorner/FinishedDishes/NightCrawlers/SM_NightCrawlers_GummyWorm1_MetallicSmoothness.png
+  artifactKey: Guid(cfd8f039db52d4c178151f85034c9c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/FinishedDishes/NightCrawlers/SM_NightCrawlers_GummyWorm1_MetallicSmoothness.png using Guid(cfd8f039db52d4c178151f85034c9c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f77649069c8db0a5707c1588bb8eb3f') in 0.0064171 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Baker'sCorner/FinishedDishes/GingerbreadGhosts/M_GhostPlate.mat
+  artifactKey: Guid(afe9069550beabf459e2aa47b16b1613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/FinishedDishes/GingerbreadGhosts/M_GhostPlate.mat using Guid(afe9069550beabf459e2aa47b16b1613) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19173195bb0977fa78d8a3c62edd2c6b') in 0.0155003 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Baker'sCorner/FinishedDishes/GingerbreadGhosts/SM_GingerbreadGhosts_ChocoChips_Normal.png
+  artifactKey: Guid(6f22d8fd9b73c44c5a5a747981f43f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/FinishedDishes/GingerbreadGhosts/SM_GingerbreadGhosts_ChocoChips_Normal.png using Guid(6f22d8fd9b73c44c5a5a747981f43f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a1412a3000c26e02d576d31ab713983') in 0.0125435 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Baker'sCorner/FinishedDishes/NightmareOnMapleStreet/M_ChocoLanterns.mat
+  artifactKey: Guid(180e9473d02b8ba45b99c071528f476c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/FinishedDishes/NightmareOnMapleStreet/M_ChocoLanterns.mat using Guid(180e9473d02b8ba45b99c071528f476c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f28d74904548dd907fc880d9824aaeb') in 0.0160117 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Baker'sCorner/FinishedDishes/GingerbreadGhosts/SM_GingerbreadGhosts_DessertPlate9_Normal.png
+  artifactKey: Guid(1de172defb2cf43a1bba93a030bd8134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/FinishedDishes/GingerbreadGhosts/SM_GingerbreadGhosts_DessertPlate9_Normal.png using Guid(1de172defb2cf43a1bba93a030bd8134) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8990e6b1be0b704e6a05188107b7ece6') in 0.0122799 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Baker'sCorner/FinishedDishes/GingerbreadGhosts/GingerbreadGhosts.fbx
+  artifactKey: Guid(f0e36ea9547dc40a1802a442a8f201b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/FinishedDishes/GingerbreadGhosts/GingerbreadGhosts.fbx using Guid(f0e36ea9547dc40a1802a442a8f201b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe68c2d467b5d54b11051bb1381491a4') in 0.090757 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 132
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Baker'sCorner/FinishedDishes/NightCrawlers/SM_NightCrawlers_DessertPlate9_Normal.png
+  artifactKey: Guid(d2f6f98fcee3f4ae0ab6f1d3b2c80e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/FinishedDishes/NightCrawlers/SM_NightCrawlers_DessertPlate9_Normal.png using Guid(d2f6f98fcee3f4ae0ab6f1d3b2c80e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '272b9a471479ef01cb63a105a6cb099c') in 0.0128733 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Baker'sCorner/FinishedDishes/NightmareOnMapleStreet/SM_ChocoLanterns_Pumpkin_MetallicSmoothness.png
+  artifactKey: Guid(5e5b4d20bdcb94e73b110934358510b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/FinishedDishes/NightmareOnMapleStreet/SM_ChocoLanterns_Pumpkin_MetallicSmoothness.png using Guid(5e5b4d20bdcb94e73b110934358510b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '170d6d7ba86108b429f2cfb8df436f72') in 0.0052732 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Baker'sCorner/FinishedDishes/DevilsChocoCake/SM_TheDevilsChocoCake_CakeTopping_MetallicSmoothness.png
+  artifactKey: Guid(94ede5d692cb84c4c806db0dfb78f928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/FinishedDishes/DevilsChocoCake/SM_TheDevilsChocoCake_CakeTopping_MetallicSmoothness.png using Guid(94ede5d692cb84c4c806db0dfb78f928) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c65591ad50b92f447f8713a021c6fe61') in 0.0052874 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Baker'sCorner/FinishedDishes/NightmareOnMapleStreet/SM_ChocoLanterns_DessertPlate9_MetallicSmoothness.png
+  artifactKey: Guid(8f4e4f002ed484dc28fd2b3f3e9c8fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/FinishedDishes/NightmareOnMapleStreet/SM_ChocoLanterns_DessertPlate9_MetallicSmoothness.png using Guid(8f4e4f002ed484dc28fd2b3f3e9c8fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9b24fd3ce30abfd0d55e23001c43471a') in 0.0050772 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Baker'sCorner/FinishedDishes/NightCrawlers/M_GummyWorm.mat
+  artifactKey: Guid(a057b060c453c6e458e1b2112029f656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/FinishedDishes/NightCrawlers/M_GummyWorm.mat using Guid(a057b060c453c6e458e1b2112029f656) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd1ec89b7dba7cee24f5c86875d429db3') in 0.0164054 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Baker'sCorner/FinishedDishes/NightCrawlers/SM_NightCrawlers_GummyWorm1_AlbedoTransparency.png
+  artifactKey: Guid(87dbb007376df45b69638324d9549fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/FinishedDishes/NightCrawlers/SM_NightCrawlers_GummyWorm1_AlbedoTransparency.png using Guid(87dbb007376df45b69638324d9549fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '82e27533c90cd7294f2bb4aaacc5125f') in 0.0127964 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Baker'sCorner/FinishedDishes/NightCrawlers/M_Filling.mat
+  artifactKey: Guid(eda2cfd61f965a64ba906b6b992ed5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/FinishedDishes/NightCrawlers/M_Filling.mat using Guid(eda2cfd61f965a64ba906b6b992ed5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e9d66ca0ffb437f56f34c20faf96c774') in 0.0157001 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Baker'sCorner/FinishedDishes/DevilsChocoCake/SM_TheDevilsChocoCake_DessertPlate9_Normal.png
+  artifactKey: Guid(97aa5c53aab4b40a8a710388a671c1f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/FinishedDishes/DevilsChocoCake/SM_TheDevilsChocoCake_DessertPlate9_Normal.png using Guid(97aa5c53aab4b40a8a710388a671c1f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6f1912cc51d8bf67f7ef9d74169f0ef4') in 0.0121935 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Baker'sCorner/FinishedDishes/DevilsChocoCake/SM_TheDevilsChocoCake_ChocoCake_Normal.png
+  artifactKey: Guid(a303a7281c4704a289ac00f2ddc4fd07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/FinishedDishes/DevilsChocoCake/SM_TheDevilsChocoCake_ChocoCake_Normal.png using Guid(a303a7281c4704a289ac00f2ddc4fd07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb1071ac1ef7c9a5faf8b9fdf47125fb') in 0.0135763 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Baker'sCorner/FinishedDishes/DevilsChocoCake/M_DevilsChocoCake.mat
+  artifactKey: Guid(db6741291fd02f24e9eaea92abbb71ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/FinishedDishes/DevilsChocoCake/M_DevilsChocoCake.mat using Guid(db6741291fd02f24e9eaea92abbb71ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bb8de96054f702218c0607d3bb7a12bb') in 0.0165879 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Baker'sCorner/FinishedDishes/NightmareOnMapleStreet/M_Chocolate.mat
+  artifactKey: Guid(f1d84780d1494644ba671f265ff54b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/FinishedDishes/NightmareOnMapleStreet/M_Chocolate.mat using Guid(f1d84780d1494644ba671f265ff54b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '262b87ec2e83f41edfd6e0c19787fb85') in 0.0151763 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Baker'sCorner/FinishedDishes/GingerbreadGhosts/SM_GingerbreadGhosts_GingerBread_MetallicSmoothness.png
+  artifactKey: Guid(36f5949c8cf294025b180419f790f82c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/FinishedDishes/GingerbreadGhosts/SM_GingerbreadGhosts_GingerBread_MetallicSmoothness.png using Guid(36f5949c8cf294025b180419f790f82c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7e24160d02cd57ac55c3e2955f5babb1') in 0.0056859 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 112.381387 seconds.
+  path: Assets/Baker'sCorner/Decor/Flag.fbx
+  artifactKey: Guid(9fb391534621a7a488c682bf99a2e423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/Decor/Flag.fbx using Guid(9fb391534621a7a488c682bf99a2e423) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '63cdb27bc73db8afe07d0f306cf7beb7') in 0.0177442 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
