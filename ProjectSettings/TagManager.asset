@@ -6,6 +6,12 @@ TagManager:
   tags:
   - Box
   - Trail
+  - Drawer
+  - Egg
+  - Ingredient
+  - Batter
+  - Pan
+  - BakedCookie
   layers:
   - Default
   - TransparentFX
@@ -13,8 +19,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - Hats
+  - Doors
   - 
   - 
   - 

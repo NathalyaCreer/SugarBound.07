@@ -24,6 +24,29 @@ public class MixingBowl : MonoBehaviour
 
     private bool isMixing = false; // prevents re-entry
 
+    public void AddPouredIngredient(Ingredient ingredient)
+    {
+        // Don’t double-add
+        if (currentIngredients.Contains(ingredient))
+        {
+            Debug.Log($"(MixingBowl) Poured ingredient {ingredient.ingredientName} already added.");
+            return;
+        }
+
+        currentIngredients.Add(ingredient);
+        Debug.Log($"(MixingBowl) Added poured ingredient: {ingredient.ingredientName}");
+
+        HandleIngredientVFXAndAudio(transform.position);
+
+        // Try auto-mixing same as solids
+        if (!isMixing)
+        {
+            Recipe matched = FindExactMatch();
+            StartCoroutine(MixRoutine(matched));
+        }
+    }
+
+
     private void OnTriggerEnter(Collider other)
     {
         IngredientInstance ingredientInstance = other.GetComponent<IngredientInstance>();

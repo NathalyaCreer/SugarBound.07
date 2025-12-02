@@ -4,32 +4,31 @@ using UnityEngine;
 public class CandyDemonAI : MonoBehaviour
 {
     [Header("References")]
-    public Transform player;                     // Player to look at
-    public GameManager gameManager;              // GameManager reference
+    public Transform player;
+    public GameManager gameManager;
 
     [Header("Teleport Settings")]
-    public Transform[] teleportPoints;           // All points demon can teleport to
-    public float minWait = 2f;                   // Min time before next teleport
-    public float maxWait = 5f;                   // Max time before next teleport
-    public float appearChance = 0.3f;            // Chance to appear visibly
+    public Transform[] teleportPoints;
+    public float minWait = 2f;
+    public float maxWait = 5f;
+    public float appearChance = 0.3f;
 
     [Header("Jump Scare")]
-    public GameObject jumpScarePrefab;           // Prefab for jump scare
-    public float failThreshold = 3;              // Number of fails before jump scare
+    public GameObject jumpScarePrefab;
+    public float failThreshold = 3;
 
     [Header("Audio")]
-    public AudioClip subtleSound;                // Ambient subtle sound
-    public AudioClip appearSound;                // Sound when demon appears
-    public AudioSource audioSource;              // Audio source for sounds
+    public AudioClip subtleSound;
+    public AudioClip appearSound;
+    public AudioSource audioSource;
 
     private bool jumpScareTriggered = false;
-    private Renderer demonRenderer;
+    private Renderer[] demonRenderers;
 
     private void Start()
     {
-        demonRenderer = GetComponentInChildren<Renderer>();
-        if (demonRenderer != null)
-            demonRenderer.enabled = false; // Start invisible
+        demonRenderers = GetComponentsInChildren<Renderer>();
+        SetVisible(false);
 
         if (gameManager == null)
             gameManager = GameManager.Instance;
@@ -37,7 +36,9 @@ public class CandyDemonAI : MonoBehaviour
         StartCoroutine(TeleportRoutine());
     }
 
-    // Called by GameManager when player fails a recipe
+    // =============================
+    //  FAIL EVENT FROM GAME MANAGER
+    // =============================
     public void OnPlayerFail(int totalFails)
     {
         Debug.Log($"CandyDemonAI: Player fail count = {totalFails}");
@@ -48,6 +49,9 @@ public class CandyDemonAI : MonoBehaviour
         }
     }
 
+    // =============================
+    //  MAIN TELEPORT LOOP
+    // =============================
     private IEnumerator TeleportRoutine()
     {
         while (!jumpScareTriggered)
@@ -55,17 +59,14 @@ public class CandyDemonAI : MonoBehaviour
             if (teleportPoints.Length == 0)
                 yield break;
 
-            // Pick random point
             Transform target = teleportPoints[Random.Range(0, teleportPoints.Length)];
             transform.position = target.position;
+            transform.rotation = target.rotation;
 
-            // Determine if demon appears visibly
             bool willAppear = Random.value < appearChance;
+            SetVisible(willAppear);
 
-            if (demonRenderer != null)
-                demonRenderer.enabled = willAppear;
-
-            // Play subtle or appear sound
+            // Audio
             if (audioSource != null)
             {
                 audioSource.Stop();
@@ -73,16 +74,26 @@ public class CandyDemonAI : MonoBehaviour
                 audioSource.Play();
             }
 
+            // Make demon look at player ONLY horizontally
             if (willAppear && player != null)
-                transform.LookAt(player);
+            {
+                Vector3 lookTarget = new Vector3(
+                    player.position.x,
+                    transform.position.y,
+                    player.position.z
+                );
+                transform.LookAt(lookTarget);
+            }
 
             Debug.Log($"CandyDemonAI: Teleported to {target.name} | Visible: {willAppear}");
 
-            float waitTime = Random.Range(minWait, maxWait);
-            yield return new WaitForSeconds(waitTime);
+            yield return new WaitForSeconds(Random.Range(minWait, maxWait));
         }
     }
 
+    // =============================
+    //  JUMP SCARE
+    // =============================
     private void TriggerJumpScare()
     {
         if (jumpScareTriggered) return;
@@ -90,11 +101,36 @@ public class CandyDemonAI : MonoBehaviour
         jumpScareTriggered = true;
         Debug.Log("CandyDemonAI: Jump Scare Triggered!");
 
-        if (jumpScarePrefab != null && player != null)
+        // Position demon directly in front of the player
+        if (player != null)
         {
-            Instantiate(jumpScarePrefab, player.position + player.forward * 0.5f, Quaternion.identity);
+            transform.position =
+                player.position + player.forward * 0.6f + Vector3.up * 0.2f;
+
+            transform.LookAt(player);
+            SetVisible(true);
         }
 
-        // Optional: Freeze player or play additional sound here
+        // Jump scare prefab spawn
+        if (jumpScarePrefab != null && player != null)
+        {
+            Vector3 spawnPos = player.position + player.forward * 0.5f + Vector3.up * 0.2f;
+            Quaternion rot = Quaternion.LookRotation(player.forward);
+            Instantiate(jumpScarePrefab, spawnPos, rot);
+        }
+    }
+
+    // =============================
+    //  VISIBILITY HELPERS
+    // =============================
+    private void SetVisible(bool visible)
+    {
+        if (demonRenderers == null) return;
+
+        foreach (Renderer r in demonRenderers)
+        {
+            if (r != null)
+                r.enabled = visible;
+        }
     }
 }
