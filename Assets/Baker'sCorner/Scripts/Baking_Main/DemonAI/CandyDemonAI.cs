@@ -133,4 +133,48 @@ public class CandyDemonAI : MonoBehaviour
                 r.enabled = visible;
         }
     }
+
+        // Called by projectiles or weapons when hitting the demon
+    public void OnHit()
+    {
+        if (jumpScareTriggered) return; // disable hits post-scare
+    
+        Debug.Log("CandyDemonAI HIT! Vanishing...");
+    
+        // disappear
+        if (demonRenderer != null)
+            demonRenderer.enabled = false;
+    
+        if (audioSource != null && appearSound != null)
+        {
+            audioSource.Stop();
+            audioSource.PlayOneShot(appearSound);
+        }
+    
+        // Stop teleport temporarily
+        StopAllCoroutines();
+    
+        // Start the respawn cycle
+        StartCoroutine(HitRespawnRoutine());
+    }
+    
+    private IEnumerator HitRespawnRoutine()
+    {
+        float respawnDelay = Random.Range(2f, 4f); // tweakable
+        yield return new WaitForSeconds(respawnDelay);
+    
+        // teleport somewhere new
+        Transform point = teleportPoints[Random.Range(0, teleportPoints.Length)];
+        transform.position = point.position;
+    
+        Debug.Log($"CandyDemonAI respawned at {point.name} after being hit.");
+    
+        // become invisible until the next teleport cycle decides otherwise
+        if (demonRenderer != null)
+            demonRenderer.enabled = false;
+    
+        // Resume teleport routine
+        StartCoroutine(TeleportRoutine());
+    }
+
 }
