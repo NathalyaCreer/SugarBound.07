@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class MixingBowl : MonoBehaviour
@@ -23,29 +23,6 @@ public class MixingBowl : MonoBehaviour
     public List<Ingredient> currentIngredients = new List<Ingredient>();
 
     private bool isMixing = false; // prevents re-entry
-
-    public void AddPouredIngredient(Ingredient ingredient)
-    {
-        // Don’t double-add
-        if (currentIngredients.Contains(ingredient))
-        {
-            Debug.Log($"(MixingBowl) Poured ingredient {ingredient.ingredientName} already added.");
-            return;
-        }
-
-        currentIngredients.Add(ingredient);
-        Debug.Log($"(MixingBowl) Added poured ingredient: {ingredient.ingredientName}");
-
-        HandleIngredientVFXAndAudio(transform.position);
-
-        // Try auto-mixing same as solids
-        if (!isMixing)
-        {
-            Recipe matched = FindExactMatch();
-            StartCoroutine(MixRoutine(matched));
-        }
-    }
-
 
     private void OnTriggerEnter(Collider other)
     {
@@ -183,4 +160,37 @@ public class MixingBowl : MonoBehaviour
 
         return false;
     }
+
+    // -----------------------
+    // New: Accept poured ingredient (called by PourDetector)
+    // -----------------------
+    public void AddPouredIngredient(Ingredient ingredient)
+    {
+        if (ingredient == null)
+        {
+            Debug.LogWarning("MixingBowl: Tried to add null poured ingredient.");
+            return;
+        }
+
+        // Prevent duplicates (you said poured ingredient should count once)
+        if (currentIngredients.Contains(ingredient))
+        {
+            Debug.Log($"MixingBowl: Poured ingredient {ingredient.ingredientName} already present.");
+            return;
+        }
+
+        currentIngredients.Add(ingredient);
+        Debug.Log($"MixingBowl: Poured ingredient added: {ingredient.ingredientName}");
+
+        // Play same VFX/audio as when adding a normal ingredient
+        HandleIngredientVFXAndAudio(transform.position);
+
+        // Immediately try to match recipes (mimics OnTriggerEnter behavior)
+        if (!isMixing)
+        {
+            Recipe matchedRecipe = FindExactMatch();
+            StartCoroutine(MixRoutine(matchedRecipe));
+        }
+    }
 }
+
