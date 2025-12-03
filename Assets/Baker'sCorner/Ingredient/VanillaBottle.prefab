@@ -131,12 +131,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 8159812237190707536}
   m_SourcePrefab: {fileID: 100100000, guid: aa358448134164b49ae4ce967bc422c3, type: 3}
---- !u!4 &3611798190828902783 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 753989768260782225, guid: aa358448134164b49ae4ce967bc422c3,
-    type: 3}
-  m_PrefabInstance: {fileID: 4064809698954039790}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &3794409350781136063 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: aa358448134164b49ae4ce967bc422c3,
@@ -166,10 +160,10 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 2
 --- !u!114 &2138617377501265665
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -244,20 +238,20 @@ MonoBehaviour:
   m_StartingInteractionStrengthFilters: []
   m_AttachTransform: {fileID: 0}
   m_SecondaryAttachTransform: {fileID: 0}
-  m_UseDynamicAttach: 0
+  m_UseDynamicAttach: 1
   m_MatchAttachPosition: 1
   m_MatchAttachRotation: 1
   m_SnapToColliderVolume: 1
   m_ReinitializeDynamicAttachEverySingleGrab: 1
   m_AttachEaseInTime: 0.15
-  m_MovementType: 2
-  m_PredictedVisualsTransform: {fileID: 3611798190828902783}
+  m_MovementType: 0
+  m_PredictedVisualsTransform: {fileID: 0}
   m_VelocityDamping: 1
   m_VelocityScale: 1
   m_AngularVelocityDamping: 1
   m_AngularVelocityScale: 1
   m_TrackPosition: 1
-  m_SmoothPosition: 0
+  m_SmoothPosition: 1
   m_SmoothPositionAmount: 8
   m_TightenPosition: 0.1
   m_TrackRotation: 1
@@ -330,10 +324,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f69df493954255140b8b3ddefa50b1a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PourDetector
-  ingredientData: {fileID: 11400000, guid: 66f8902288c8fe747a908b55b70ab106, type: 2}
+  pourAngleThreshold: 45
   unitsPerSecond: 1
-  requiredUnits: 2
-  pourParticles: {fileID: 0}
+  unitsRequiredToAdd: 1.5
+  pourParticles: {fileID: 3214383475655419960, guid: d887a840324918f4ca21a2a21a5d2445,
+    type: 3}
+  pourIngredient: {fileID: 11400000, guid: 66f8902288c8fe747a908b55b70ab106, type: 2}
 --- !u!1 &5879138755045541033 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7638104345217537351, guid: aa358448134164b49ae4ce967bc422c3,

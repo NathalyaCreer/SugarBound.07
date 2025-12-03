@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: Vanilla
   m_EditorClassIdentifier: Assembly-CSharp::Ingredient
   ingredientName: Vanilla
-  prefab: {fileID: 3794409350781136063, guid: 5c785163ebbbcd74ca5008ce314a8883, type: 3}
+  sourcePrefab: {fileID: 3794409350781136063, guid: 5c785163ebbbcd74ca5008ce314a8883,
+    type: 3}

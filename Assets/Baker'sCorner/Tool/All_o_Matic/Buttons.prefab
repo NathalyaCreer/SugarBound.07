@@ -316,7 +316,8 @@ MonoBehaviour:
         m_MethodName: PlayOneShot
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: c05d8f4594cee6a4eb9857df8888af4a, type: 3}
+          m_ObjectArgument: {fileID: 8300000, guid: c05d8f4594cee6a4eb9857df8888af4a,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -399,7 +400,6 @@ MonoBehaviour:
   m_ApplyIfChildIsTarget: 1
   m_ClampToMaxDistance: 1
   m_MaxDistance: 0.017
-  m_PokeFilter: {fileID: 265980871985812474}
 --- !u!114 &7994794212680463453
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -458,7 +458,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: c05d8f4594cee6a4eb9857df8888af4a, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.2
   m_Pitch: 1
@@ -504,7 +504,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0.75
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -558,7 +558,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_AffordanceStateProvider: {fileID: 1703658546413170300}
   m_AffordanceThemeDatum:
-    m_UseConstant: 0
+    m_UseConstant: 1
     m_ConstantValue:
       m_List:
       - stateName: disabled
@@ -583,7 +583,8 @@ MonoBehaviour:
         stateEntered: {fileID: 0}
         stateExited: {fileID: 0}
     m_Variable: {fileID: 11400000, guid: 57def9352cdee8548bfc9ebc6a55914a, type: 2}
-  m_AudioSource: {fileID: 1276042189522254775, guid: c47e3dd357a884b4aa65c98b8d930a5d, type: 3}
+  m_AudioSource: {fileID: 1276042189522254775, guid: c47e3dd357a884b4aa65c98b8d930a5d,
+    type: 3}
 --- !u!1 &5898832554782726586
 GameObject:
   m_ObjectHideFlags: 0

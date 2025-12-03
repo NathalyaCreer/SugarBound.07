@@ -104,6 +104,7 @@ GameObject:
   - component: {fileID: 1724294424979329146}
   - component: {fileID: 6627278633089842391}
   - component: {fileID: 2182831339463909616}
+  - component: {fileID: -3430675281026450559}
   m_Layer: 0
   m_Name: BakedCookies
   m_TagString: Pan
@@ -378,6 +379,19 @@ MonoBehaviour:
   totalScoopsNeeded: 0
   finalPanPrefab: {fileID: 0}
   scoopVFXPrefab: {fileID: 0}
+--- !u!114 &-3430675281026450559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5496385481168835573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd88baaa28e3652458a5c56d9fcc4289, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::IngredientInstance
+  ingredientData: {fileID: 11400000, guid: 2d2a3fef52bb0834ea4c99d11cecaddf, type: 2}
 --- !u!1 &5769284391513738350
 GameObject:
   m_ObjectHideFlags: 0

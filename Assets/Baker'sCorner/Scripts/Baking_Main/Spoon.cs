@@ -38,7 +38,6 @@ public class Spoon : MonoBehaviour
 
             batter.RemoveScoop(); // remove one scoop
             Debug.Log($"Spoon scooped batter: {heldRecipe.recipeName}");
-            AudioManager.Instance.Play("Scoop");
             return;
         }
 

@@ -134,47 +134,49 @@ public class CandyDemonAI : MonoBehaviour
         }
     }
 
-        // Called by projectiles or weapons when hitting the demon
+    // Called by projectiles or weapons when hitting the demon
+    // Called by projectiles or weapons when hitting the demon
     public void OnHit()
     {
-        if (jumpScareTriggered) return; // disable hits post-scare
-    
+        if (jumpScareTriggered) return; // disable hits after scare
+
         Debug.Log("CandyDemonAI HIT! Vanishing...");
-    
-        // disappear
-        if (demonRenderer != null)
-            demonRenderer.enabled = false;
-    
+
+        // Hide demon
+        SetVisible(false);
+
+        // Hit sound
         if (audioSource != null && appearSound != null)
         {
             audioSource.Stop();
             audioSource.PlayOneShot(appearSound);
         }
-    
-        // Stop teleport temporarily
+
+        // Stop teleporting temporarily
         StopAllCoroutines();
-    
-        // Start the respawn cycle
+
+        // Start respawn cycle
         StartCoroutine(HitRespawnRoutine());
     }
-    
+
     private IEnumerator HitRespawnRoutine()
     {
-        float respawnDelay = Random.Range(2f, 4f); // tweakable
+        float respawnDelay = Random.Range(2f, 4f);
         yield return new WaitForSeconds(respawnDelay);
-    
-        // teleport somewhere new
+
+        // Teleport to a new point
         Transform point = teleportPoints[Random.Range(0, teleportPoints.Length)];
         transform.position = point.position;
-    
+        transform.rotation = point.rotation;
+
         Debug.Log($"CandyDemonAI respawned at {point.name} after being hit.");
-    
-        // become invisible until the next teleport cycle decides otherwise
-        if (demonRenderer != null)
-            demonRenderer.enabled = false;
-    
+
+        // Stay invisible until the teleport loop chooses to show it again
+        SetVisible(false);
+
         // Resume teleport routine
         StartCoroutine(TeleportRoutine());
     }
+
 
 }

@@ -65,7 +65,7 @@ public class MixingBowl : MonoBehaviour
         isMixing = false;
     }
 
-    private void AddIngredient(Ingredient ingredient)
+    public void AddIngredient(Ingredient ingredient)
     {
         if (ingredient == null) return;
         currentIngredients.Add(ingredient);

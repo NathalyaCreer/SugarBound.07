@@ -14,9 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Recipe
   recipeName: Mysterious Donuts
   requiredIngredients:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: abd5ce7e3b1931244b60d2d69f71e6b5, type: 2}
+  - {fileID: 11400000, guid: 0182c814188dd32438deb9096ac506f4, type: 2}
+  - {fileID: 11400000, guid: 3088628480fb7454d8905275ea3a4973, type: 2}
+  - {fileID: 11400000, guid: 1b54b2eb12b5ea04099a72c0df6cbccc, type: 2}
+  - {fileID: 11400000, guid: 66f8902288c8fe747a908b55b70ab106, type: 2}
+  finalPanPrefab: {fileID: 0}
   resultPrefab: {fileID: 0}
+  burntPrefab: {fileID: 0}
+  bakeTime: 30
+  recipeImage: {fileID: 0}

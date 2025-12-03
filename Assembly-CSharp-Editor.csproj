@@ -1450,6 +1450,10 @@
       <Project>{D22AFAC5-8988-A938-A73B-FE0943DBB4DC}</Project>
       <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Polyperfect.Universal.csproj">
+      <Project>{B990600A-DF74-865B-CE08-B212EFA1BDE9}</Project>
+      <Name>Polyperfect.Universal</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

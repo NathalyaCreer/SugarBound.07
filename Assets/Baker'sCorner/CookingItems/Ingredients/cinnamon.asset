@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: cinnamon
   m_EditorClassIdentifier: Assembly-CSharp::Ingredient
   ingredientName: Cinnamon
-  prefab: {fileID: 5776341596623866969, guid: 3251d030dbb40d942a5e54596def93e0, type: 3}
+  sourcePrefab: {fileID: 5776341596623866969, guid: 3251d030dbb40d942a5e54596def93e0,
+    type: 3}

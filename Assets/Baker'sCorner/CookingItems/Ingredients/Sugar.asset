@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: Sugar
   m_EditorClassIdentifier: Assembly-CSharp::Ingredient
   ingredientName: Sugar
-  prefab: {fileID: 0}
+  sourcePrefab: {fileID: 1024825306223225204, guid: d9a9ef9b768ac71438834cb141680caf,
+    type: 3}

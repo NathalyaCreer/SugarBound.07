@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: MiniPumpkins
   m_EditorClassIdentifier: Assembly-CSharp::Ingredient
   ingredientName: Mini Pumpkins
-  prefab: {fileID: 0}
+  sourcePrefab: {fileID: 919132149155446097, guid: e023f860f99e1ea42857567b800f6a61,
+    type: 3}

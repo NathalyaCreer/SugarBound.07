@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Baker'sCorner.unity
     guid: 23ee1392b707a0d4a8d2cb3093531b9b
+  - enabled: 1
+    path: Assets/Scenes/Tutorial.unity
+    guid: 1ce37332accbb4b4d83b66de126d5d53
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: ed72be55522c8448bae8b0d66fa21adf,
       type: 2}

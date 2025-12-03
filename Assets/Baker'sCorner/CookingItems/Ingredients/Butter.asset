@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: Butter
   m_EditorClassIdentifier: Assembly-CSharp::Ingredient
   ingredientName: Butter
-  prefab: {fileID: 919132149155446097, guid: 5b9438cd174f0cf479ea8149f2244a88, type: 3}
+  sourcePrefab: {fileID: 5120881042854057634, guid: e62a98731a272ab4c9f113f5373d0727,
+    type: 3}

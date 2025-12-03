@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: ChocoChips
   m_EditorClassIdentifier: Assembly-CSharp::Ingredient
   ingredientName: Choco Chips
-  prefab: {fileID: 919132149155446097, guid: 847edf4715edd45c99c11d0c106d8692, type: 3}
+  sourcePrefab: {fileID: 5120881042854057634, guid: e8319cb1c756ed84db5a6cae1ff61a43,
+    type: 3}

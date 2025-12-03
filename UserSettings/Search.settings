@@ -9,7 +9,7 @@ onBoardingDoNotAskAgain = true
 showPackageIndexes = false
 showStatusBar = false
 scopes = {
-	"picker_window_position_offset.00000000" = "-190;459;499;550"
+	"picker_window_position_offset.00000000" = "-512;495;499;550"
 	"picker_visibility_flags.00000000" = "0"
 	"picker_item_size.00000000" = "32"
 	"picker_inspector.00000000" = "0"
@@ -69,23 +69,26 @@ providers = {
 objectSelectors = {
 }
 recentSearches = [
-	"xri righthand/pos"
-	"xri righthand"
+	"trackin"
+	"rotati"
+	"positio"
+	"move"
+	"xri left"
 	"xri lefthand"
+	"xri righthand"
+	"locomotion"
+	"l"
+	"xri rig"
+	"xri right"
+	"xr"
+	"righhan"
+	"xri righthand/"
+	"xri ri"
+	"xri lefthand t"
+	""
+	"xri righthand/pos"
 	"xri lefthan"
 	"pos"
-	"xri lefthand in"
-	"xri lefthand interaction"
-	"haptic"
-	"ha"
-	"xri righthand locomo"
-	"xri righthand "
-	"xri righthand locomato"
-	"xri right"
-	"locomo"
-	"XRI Left"
-	"X"
-	"xri lef"
 ]
 searchItemFavorites = [
 ]

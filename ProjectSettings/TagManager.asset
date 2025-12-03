@@ -12,6 +12,11 @@ TagManager:
   - Batter
   - Pan
   - BakedCookie
+  - CornerCabinet
+  - RightCabinet
+  - DrawerOther
+  - Projectile
+  - CompletedRecipe
   layers:
   - Default
   - TransparentFX
@@ -21,7 +26,7 @@ TagManager:
   - UI
   - Hats
   - Doors
-  - 
+  - Raycasts
   - 
   - 
   - 

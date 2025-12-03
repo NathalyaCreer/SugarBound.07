@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: cocoaPowder
   m_EditorClassIdentifier: Assembly-CSharp::Ingredient
   ingredientName: Cocoa Powder
-  prefab: {fileID: 411287669520081792, guid: 8b29760e8bfb0f749bef53aff7b5242c, type: 3}
+  sourcePrefab: {fileID: 411287669520081792, guid: 8b29760e8bfb0f749bef53aff7b5242c,
+    type: 3}

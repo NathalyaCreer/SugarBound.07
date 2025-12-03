@@ -61,6 +61,7 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.2.6f2\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Baker&apos;sCorner\Scripts\Baking_Main\PlateReceiver.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\LaunchProjectile.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
     <Compile Include="Assets\Baker&apos;sCorner\Scripts\ScriptableObjects\IngredientProcess.cs" />
@@ -89,14 +90,12 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
     <Compile Include="Assets\Baker&apos;sCorner\Scripts\Baking_Main\IngredientInstance.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
-    <Compile Include="Assets\Baker&apos;sCorner\Scripts\Baking_Main\Oven\OvenTimer.cs" />
     <Compile Include="Assets\Baker&apos;sCorner\Scripts\Baking_Main\PourDetector.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Conditions\OnTimedInterval.cs" />
     <Compile Include="Assets\Baker&apos;sCorner\Scripts\UI\SetOptionFromUI.cs" />
     <Compile Include="Assets\Baker&apos;sCorner\Scripts\Baking_Main\Oven\Oven.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Conditions\OnPull.cs" />
-    <Compile Include="Assets\Baker&apos;sCorner\Scripts\Baking_Main\DemonAI\DemonWaypoints.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\PlayContinuousSound.cs" />
     <Compile Include="Assets\Baker&apos;sCorner\Scripts\UI\Quit.cs" />
@@ -112,6 +111,7 @@
     <Compile Include="Assets\Baker&apos;sCorner\Scripts\Optimization\AudioManager.cs" />
     <Compile Include="Assets\Baker&apos;sCorner\Scripts\ScriptableObjects\Recipe.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
+    <Compile Include="Assets\_Course Library\Scripts\Testing\TutorialTrigger.cs" />
     <Compile Include="Assets\Baker&apos;sCorner\Scripts\Baking_Main\AllOMatic\ButtonAction.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\ScaleObject.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\StickToObject.cs" />
@@ -120,6 +120,7 @@
     <Compile Include="Assets\_Course Library\Scripts\Controls\XRKnob.cs" />
     <Compile Include="Assets\Baker&apos;sCorner\Scripts\Baking_Main\Spoon.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Conditions\OnJoystickMove.cs" />
+    <Compile Include="Assets\Baker&apos;sCorner\Scripts\Baking_Main\CookedFood.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
@@ -146,10 +147,12 @@
     <Compile Include="Assets\_Course Library\Scripts\Actions\CreateTrail.cs" />
     <Compile Include="Assets\Baker&apos;sCorner\Scripts\Baking_Main\PanRespawner.cs" />
     <Compile Include="Assets\Baker&apos;sCorner\Scripts\UI\FadeScreen.cs" />
+    <Compile Include="Assets\Baker&apos;sCorner\Scripts\Baking_Main\TiltPour.cs" />
     <Compile Include="Assets\Baker&apos;sCorner\Scripts\Baking_Main\MixingBowl.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Conditions\OnSceneLoad.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\ChangeMaterial.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\LoadScene.cs" />
+    <Compile Include="Assets\Baker&apos;sCorner\Scripts\Baking_Main\Plate.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\FadeCanvasOnOverlap.cs" />
@@ -161,6 +164,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
     <Compile Include="Assets\Baker&apos;sCorner\Scripts\Optimization\GameManager.cs" />
+    <Compile Include="Assets\_Course Library\Scripts\Testing\TutorialManager.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\PlayQuickSound.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
@@ -183,6 +187,9 @@
     <Compile Include="Assets\Baker&apos;sCorner\Scripts\Baking_Main\BakingPan.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\ConvertValueToHue.cs" />
     <Compile Include="Assets\Baker&apos;sCorner\Scripts\Baking_Main\DemonAI\CandyDemonAI.cs" />
+    <Compile Include="Assets\Baker&apos;sCorner\Scripts\Baking_Main\DemonAI\DemonHitbox.cs" />
+    <Compile Include="Assets\Baker&apos;sCorner\Scripts\ToggleInteractorComponets.cs" />
+    <Compile Include="Assets\Baker&apos;sCorner\Scripts\TutorialExitSocket.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\RemoveObjectsWithTag.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Testing\TeleportAreaWithFade.cs" />
   </ItemGroup>
@@ -191,6 +198,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Roboto-Bold - License.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile-2-Pass.shader" />
+    <None Include="Assets\CrowAssets\Assets\Low Poly Stylized Food\Info\Thank You.txt" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Unity - OFL.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
@@ -1512,6 +1520,10 @@
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.csproj">
       <Project>{D22AFAC5-8988-A938-A73B-FE0943DBB4DC}</Project>
       <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Polyperfect.Universal.csproj">
+      <Project>{B990600A-DF74-865B-CE08-B212EFA1BDE9}</Project>
+      <Name>Polyperfect.Universal</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

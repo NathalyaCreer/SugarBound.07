@@ -16,6 +16,10 @@ MonoBehaviour:
   requiredIngredients:
   - {fileID: 11400000, guid: 0182c814188dd32438deb9096ac506f4, type: 2}
   - {fileID: 11400000, guid: 15452c9910dc7f64b9108f1479d1d55a, type: 2}
-  - {fileID: 11400000, guid: 187ee1215c757f641ae6882a1da17406, type: 2}
   - {fileID: 11400000, guid: abd5ce7e3b1931244b60d2d69f71e6b5, type: 2}
-  resultPrefab: {fileID: 919132149155446097, guid: df70c62166d6d425aae52b68ef338f76, type: 3}
+  finalPanPrefab: {fileID: 0}
+  resultPrefab: {fileID: 919132149155446097, guid: df70c62166d6d425aae52b68ef338f76,
+    type: 3}
+  burntPrefab: {fileID: 0}
+  bakeTime: 30
+  recipeImage: {fileID: 0}
