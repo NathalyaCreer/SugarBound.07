@@ -1,0 +1,1291 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.2/respin/6000.2.6f2-cc51a95c03' branch; Version is '6000.2.6f2 (4a4dcaec6541) revision 4869578'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-aweso" at "2025-12-03T07:09:19.7021568Z"
+OS: 'Windows 11  (10.0.26200) 64bit Core' Language: 'en' Physical Memory: 31967 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2025-12-03T07:09:19Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.2.6f2\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker75
+-projectPath
+C:/Users/aweso/Documents/SugarBound.07
+-logFile
+Logs/AssetImportWorker75.log
+-srvPort
+53752
+-licensingIpc
+LicenseClient-aweso
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/aweso/Documents/SugarBound.07
+C:/Users/aweso/Documents/SugarBound.07
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [72640]  Target information:
+
+Player connection [72640]  * "[IP] 192.168.1.127 [Port] 0 [Flags] 2 [Guid] 2671475863 [EditorId] 2671475863 [Version] 1048832 [Id] WindowsEditor(7,DevinPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [72640] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [72640] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 31572, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.3+a4e98f1
+  Session Id:              d5e03b1a0c46462fa2502006901aef11
+  Correlation Id:          ebc368e6c0632ba8f55a6b47cfb5cd2c
+  External correlation Id: 2660011015754644399
+  Machine Id:              cPCzQz9axXHQmewSXrMKmPRaxqY=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-aweso" (connect: 0.00s, validation: 0.00s, handshake: 0.03s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-aweso-notifications" at "2025-12-03T07:09:19.7345196Z"
+[Licensing::Module] Licensing Background thread has ended after 0.03s
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 1375641944432-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Refreshing native plugins compatible for Editor in 17.87 ms, found 10 plugins.
+Unity memory allocator detected: MetaXRAudio native memory allocations will be tracked.
+Preloading 1 native plugins for Editor in 0.94 ms.
+Initialize engine version: 6000.2.6f2 (4a4dcaec6541)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/aweso/Documents/SugarBound.07/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Ti (ID=0x2803)
+    Vendor:   NVIDIA
+    VRAM:     7949 MB
+    Driver:   32.0.15.8157
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56556
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.005294 seconds.
+- Loaded All Assemblies, in  0.319 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 205 ms
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.450 seconds
+Domain Reload Profiling: 766ms
+	BeginReloadAssembly (105ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (125ms)
+		LoadAssemblies (104ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (122ms)
+			TypeCache.Refresh (121ms)
+				TypeCache.ScanAssembly (113ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (450ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (418ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (276ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (35ms)
+			ProcessInitializeOnLoadAttributes (72ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.582 seconds
+Refreshing native plugins compatible for Editor in 8.27 ms, found 10 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal@1e1527b3a17b/Runtime/Data/UniversalRenderPipelineAsset.cs:432)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@1e1527b3a17b/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 432)
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.680 seconds
+Domain Reload Profiling: 1257ms
+	BeginReloadAssembly (131ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (388ms)
+		LoadAssemblies (261ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (197ms)
+			TypeCache.Refresh (143ms)
+				TypeCache.ScanAssembly (129ms)
+			BuildScriptInfoCaches (40ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (680ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (522ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (97ms)
+			ProcessInitializeOnLoadAttributes (321ms)
+			ProcessInitializeOnLoadMethodAttributes (87ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 11.40 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7245 unused Assets / (4.3 MB). Loaded Objects now: 7980.
+Memory consumption went from 138.5 MB to 134.2 MB.
+Total: 7.218100 ms (FindLiveObjects: 0.754900 ms CreateObjectMapping: 0.284300 ms MarkObjects: 4.287100 ms  DeleteObjects: 1.891200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 95776.582064 seconds.
+  path: Assets/Baker'sCorner/Scripts/Baking_Main/Oven/Oven.cs
+  artifactKey: Guid(172db41769c1f8e4a88b70a08ab7a47e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/Scripts/Baking_Main/Oven/Oven.cs using Guid(172db41769c1f8e4a88b70a08ab7a47e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5dbeec7f9c0c14f094e815090b66e107') in 0.0032392 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 88.359055 seconds.
+  path: Assets/polyperfect/Poly Halloween/Prefabs/Halloween/Witch_Hat.prefab
+  artifactKey: Guid(b9599586d827bb44ab2627d1bc2a9c9a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Prefabs/Halloween/Witch_Hat.prefab using Guid(b9599586d827bb44ab2627d1bc2a9c9a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ee7b67ccdf1730dc6a4f9a102adb0da3') in 0.1822176 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/polyperfect/Poly Halloween/Scripts
+  artifactKey: Guid(acc1f80870f6f894fa8eb13246509d17) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Scripts using Guid(acc1f80870f6f894fa8eb13246509d17) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dc61d18dbdcc8f42d54af4997ceaa191') in 0.0121792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/polyperfect/Poly Halloween/Prefabs/Nature
+  artifactKey: Guid(00876d9b111513148b80d6e253aae418) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Prefabs/Nature using Guid(00876d9b111513148b80d6e253aae418) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd9cf26f92ee27c4380b95d404c711adf') in 0.0113562 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/polyperfect/Poly Halloween/Prefabs/Halloween/Lollipop_Flat_A.prefab
+  artifactKey: Guid(235453bd5573550408d145c0b6db75dc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Prefabs/Halloween/Lollipop_Flat_A.prefab using Guid(235453bd5573550408d145c0b6db75dc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '72d3d7bf02ad23d7b46ca61e89d65632') in 0.0208154 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/polyperfect/Poly Halloween/Prefabs/Halloween/Lantern_Street_Movable_Halloween.prefab
+  artifactKey: Guid(be6d9d3cddfea994ba51e3cf425087a2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Prefabs/Halloween/Lantern_Street_Movable_Halloween.prefab using Guid(be6d9d3cddfea994ba51e3cf425087a2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4933c2c6ca73763ca83f423417a3e81a') in 0.0153142 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/polyperfect/Poly Halloween/Meshes/Halloween/SM_Gibbet.fbx
+  artifactKey: Guid(8fd3a4cf67066bb4bbfe56d642be1efa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Meshes/Halloween/SM_Gibbet.fbx using Guid(8fd3a4cf67066bb4bbfe56d642be1efa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8040aa8ce14a33d71836017423bf6792') in 0.0449945 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/polyperfect/Poly Halloween/Meshes/Halloween/SM_Mushroom_Magical_Cluster_B.fbx
+  artifactKey: Guid(eefe75d458a3ded439f261eb694d32d1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Meshes/Halloween/SM_Mushroom_Magical_Cluster_B.fbx using Guid(eefe75d458a3ded439f261eb694d32d1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cff6979abfba99be569f5d07efea2301') in 0.0165236 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/polyperfect/Poly Halloween/Prefabs/Halloween/Scarecrow_A.prefab
+  artifactKey: Guid(6466f21c32f0b664d8f3c4d04a087c49) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Prefabs/Halloween/Scarecrow_A.prefab using Guid(6466f21c32f0b664d8f3c4d04a087c49) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7fd1e0073ba9cde9eee32b9f3fd3ecfb') in 0.0137276 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/polyperfect/Poly Halloween/Meshes/Terrain/SM_Sm_Terrain.fbx
+  artifactKey: Guid(489c11a966bff66408570083e87a7937) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Meshes/Terrain/SM_Sm_Terrain.fbx using Guid(489c11a966bff66408570083e87a7937) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ccd18c4592938aed8f59592699a2b875') in 0.021293 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/polyperfect/Poly Halloween/Meshes/Nature/Trees
+  artifactKey: Guid(fb17f398a79f2a64c8b3cc306b697dd9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Meshes/Nature/Trees using Guid(fb17f398a79f2a64c8b3cc306b697dd9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9578dec112285973a37f498d73997459') in 0.0106991 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/polyperfect/Poly Halloween/Meshes/Halloween/SM_Witch_Hat.fbx
+  artifactKey: Guid(debd58b30b5db0c41b429731fc5a1b30) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Meshes/Halloween/SM_Witch_Hat.fbx using Guid(debd58b30b5db0c41b429731fc5a1b30) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '337f030b8ace1319c75d6d707ea4a1f4') in 0.0145554 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/polyperfect/Poly Halloween/Meshes/Nature/Rocks/SM_Rock_A.fbx
+  artifactKey: Guid(9a4fe30f93d3790468ebc832f4972bbb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Meshes/Nature/Rocks/SM_Rock_A.fbx using Guid(9a4fe30f93d3790468ebc832f4972bbb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f3b15c2b0ea58d5a016fde4ef897d701') in 0.01524 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/polyperfect/Poly Halloween/Meshes/Halloween/SM_Lollipop_Round_A.fbx
+  artifactKey: Guid(729eeb14f53bfd849b4530462e4b11b9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Meshes/Halloween/SM_Lollipop_Round_A.fbx using Guid(729eeb14f53bfd849b4530462e4b11b9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '48e1a0e618648cefb9ecec1c98a28955') in 0.0150149 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/polyperfect/Poly Halloween/Meshes/Nature/Grass
+  artifactKey: Guid(26b70a606e60d624dbe86ff951c7c9f5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Meshes/Nature/Grass using Guid(26b70a606e60d624dbe86ff951c7c9f5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c956ef7619716cae2a854c1cc96f279c') in 0.0109496 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/polyperfect/Poly Halloween/Meshes/Halloween/SM_Scythe.fbx
+  artifactKey: Guid(03c59095b36405648879f098b5dcd273) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Meshes/Halloween/SM_Scythe.fbx using Guid(03c59095b36405648879f098b5dcd273) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2d24b8b33efd197394cce66f3c47bb17') in 0.0304979 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/polyperfect/Poly Halloween/Meshes/Halloween/SM_Lantern_Street_Fixed_Halloween.fbx
+  artifactKey: Guid(8e204af8681eb324b9231b09940ee91b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Meshes/Halloween/SM_Lantern_Street_Fixed_Halloween.fbx using Guid(8e204af8681eb324b9231b09940ee91b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '446dc3b1eeae9539a68d0a4ffdd3c132') in 0.0142745 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/polyperfect/Poly Halloween/Meshes/Halloween/SM_Gravestone_Old_Small_A.fbx
+  artifactKey: Guid(8cafeb9c36c76844d80e57a9527c76db) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Meshes/Halloween/SM_Gravestone_Old_Small_A.fbx using Guid(8cafeb9c36c76844d80e57a9527c76db) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '218ce2118528aac04aac398457bf5d0c') in 0.0155111 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/polyperfect/Poly Halloween/Textures
+  artifactKey: Guid(8c2df8e0f27d97f4b9134274b064bfcb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Textures using Guid(8c2df8e0f27d97f4b9134274b064bfcb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6c80852a5eb5391b408464976692d119') in 0.0113235 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/polyperfect/Poly Halloween/Meshes/Halloween/SM_Book_Stand_Halloween.fbx
+  artifactKey: Guid(b41a10eed5b7c394ea82e20c9d9385ca) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Meshes/Halloween/SM_Book_Stand_Halloween.fbx using Guid(b41a10eed5b7c394ea82e20c9d9385ca) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fa3ee6df168756193a062d10d2d31c64') in 0.0158152 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/polyperfect/Poly Halloween/Meshes/Halloween/SM_Gravestone_Old_Classic_Cross.fbx
+  artifactKey: Guid(43d4b110451be394e84506bccec01ea9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Meshes/Halloween/SM_Gravestone_Old_Classic_Cross.fbx using Guid(43d4b110451be394e84506bccec01ea9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f6a3c0e74115786a4571c6662c931b70') in 0.0146987 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/polyperfect/Poly Halloween/Materials/Nature/M_Foliage_A.mat
+  artifactKey: Guid(579b1bdc4edeb064e9430e0520bb1a48) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Materials/Nature/M_Foliage_A.mat using Guid(579b1bdc4edeb064e9430e0520bb1a48) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '41413ce23dfeb2fc1dee188bd5d1cd9f') in 0.0794771 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/polyperfect/Poly Halloween/Meshes/Halloween/SM_Scarecrow_B.fbx
+  artifactKey: Guid(da077f0aa5505964cbc56c88ef257f4a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Meshes/Halloween/SM_Scarecrow_B.fbx using Guid(da077f0aa5505964cbc56c88ef257f4a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2c42497f0f14f132b6f602d9218710a1') in 0.0158377 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/polyperfect/Poly Halloween/Prefabs/Halloween/Mushroom_Magical_Amanita_Mature.prefab
+  artifactKey: Guid(a629a3959f8b3c24e90fb06d496c5cd6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Prefabs/Halloween/Mushroom_Magical_Amanita_Mature.prefab using Guid(a629a3959f8b3c24e90fb06d496c5cd6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '35dddf86afaf264b13ffc5e3d44d90d3') in 0.0155355 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/polyperfect/Poly Halloween/Prefabs/Halloween/Gravestone_Old_Cross.prefab
+  artifactKey: Guid(802993c0a67c1474a8e45bec6ae1a495) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Prefabs/Halloween/Gravestone_Old_Cross.prefab using Guid(802993c0a67c1474a8e45bec6ae1a495) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '18f044a178040dd2e71bd596d0b9e56a') in 0.0156168 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/polyperfect/Poly Halloween/Meshes/People/SKM_Man_Ghost_Halloween.fbx
+  artifactKey: Guid(bdd8def79b90cbf42903b785817b818c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Meshes/People/SKM_Man_Ghost_Halloween.fbx using Guid(bdd8def79b90cbf42903b785817b818c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '61e12a9685778dcc995ba7de704c0bc0') in 0.0400163 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 168
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/polyperfect/Poly Halloween/Prefabs/Halloween/Candle_Stick_C_Unlit.prefab
+  artifactKey: Guid(4391509658c90cc418d974050830663e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Prefabs/Halloween/Candle_Stick_C_Unlit.prefab using Guid(4391509658c90cc418d974050830663e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3d4a69c5509d8fc9d0cc488eee55c985') in 0.0151064 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/polyperfect/Poly Halloween/Materials/M_Universal_Glass.mat
+  artifactKey: Guid(5973b351a46f26f4aa86d73d41691620) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Materials/M_Universal_Glass.mat using Guid(5973b351a46f26f4aa86d73d41691620) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '17c0a8f32e70961721e6b18bf264e4aa') in 0.0823279 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/polyperfect/Poly Halloween/Meshes/Halloween
+  artifactKey: Guid(22b23ed0f8905254181a70e90ad32f6c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Meshes/Halloween using Guid(22b23ed0f8905254181a70e90ad32f6c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd8706e03e77101848bdc552fefd2bdc2') in 0.0114175 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/polyperfect/Poly Halloween/Prefabs/Nature/Trees
+  artifactKey: Guid(5220aa4f861499345af6d080772a9a4a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Prefabs/Nature/Trees using Guid(5220aa4f861499345af6d080772a9a4a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '93ea81c7b90a5bfd0d69a9c3bb354eda') in 0.0124728 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/polyperfect/Poly Halloween/Prefabs/Modular Parts/Fences/Wall_Graveyard_End.prefab
+  artifactKey: Guid(6aeb785d1cb7b554d95439d19f61fe4d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Prefabs/Modular Parts/Fences/Wall_Graveyard_End.prefab using Guid(6aeb785d1cb7b554d95439d19f61fe4d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ac937a94852405f8345bd9126cd28291') in 0.0145649 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/polyperfect/Poly Halloween/Prefabs/Halloween/Stump_Possesed.prefab
+  artifactKey: Guid(6d58392d0b7c5a44a82040de4cdf5f68) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Prefabs/Halloween/Stump_Possesed.prefab using Guid(6d58392d0b7c5a44a82040de4cdf5f68) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fe5a459c7acbe7ff9c52bd2a56a8146d') in 0.0136637 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/polyperfect/Poly Halloween/Prefabs/Modular Parts/Fences
+  artifactKey: Guid(3b4d5858c1736214ea246adf921b987a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Prefabs/Modular Parts/Fences using Guid(3b4d5858c1736214ea246adf921b987a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f83714bdfe829baf84eb7755624b3a75') in 0.0117279 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/polyperfect/Poly Halloween/Meshes/Modular Parts
+  artifactKey: Guid(5f1ebc4ceca4da14e8934cc667dc9b7f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Meshes/Modular Parts using Guid(5f1ebc4ceca4da14e8934cc667dc9b7f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7e1a7d520d1f5a4b918f2ed26082ad29') in 0.009906 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/polyperfect/Poly Halloween/_Demo Scenes/Terrain
+  artifactKey: Guid(cf9a7a3e73c0ad740b533e3d2207ff18) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/_Demo Scenes/Terrain using Guid(cf9a7a3e73c0ad740b533e3d2207ff18) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3eb9dc8798b29593309e5e958f7e73d4') in 0.0098043 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/polyperfect/Poly Halloween/_Demo Scenes/DEMO_02_Graveyard/LightingData.asset
+  artifactKey: Guid(5ae7420b0bf6b8c4299cbfe310098165) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/_Demo Scenes/DEMO_02_Graveyard/LightingData.asset using Guid(5ae7420b0bf6b8c4299cbfe310098165) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1ecae5baff0b2e065767ea986d203a71') in 0.020386 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/polyperfect/Poly Halloween/Prefabs/People/Man_Killer_Halloween.prefab
+  artifactKey: Guid(138bea4fcc575f24bb71a706968042c1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Prefabs/People/Man_Killer_Halloween.prefab using Guid(138bea4fcc575f24bb71a706968042c1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd17e347568235c351d2da08541f7248e') in 0.01395 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 169
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/polyperfect/Poly Halloween/Meshes/Halloween/SM_Mushroom_Magical_Champignon_A.fbx
+  artifactKey: Guid(d8db764aa4329e64f8db533b55235176) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Meshes/Halloween/SM_Mushroom_Magical_Champignon_A.fbx using Guid(d8db764aa4329e64f8db533b55235176) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b8a28e0d4b6df28bebe0639ce33769c0') in 0.0142755 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/polyperfect/Poly Halloween/Prefabs/Halloween/Candle_Stick_B_Unlit.prefab
+  artifactKey: Guid(b45cd03fb31c8a54b9d9c3b5a2634d93) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Prefabs/Halloween/Candle_Stick_B_Unlit.prefab using Guid(b45cd03fb31c8a54b9d9c3b5a2634d93) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2ec6a337259e6c392635ac5dd47b3bd2') in 0.0111146 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/polyperfect/Poly Halloween/Prefabs/Halloween/Pumpkin_A.prefab
+  artifactKey: Guid(36694657a5f6ed44ca298dd8501b1122) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Prefabs/Halloween/Pumpkin_A.prefab using Guid(36694657a5f6ed44ca298dd8501b1122) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9706db463ee125edb134a1125b0524c5') in 0.0143429 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/polyperfect/Poly Halloween/Prefabs/Halloween/Gravestone_Old_Small_A.prefab
+  artifactKey: Guid(71715a5082fc03548a75f67b89faf87b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Prefabs/Halloween/Gravestone_Old_Small_A.prefab using Guid(71715a5082fc03548a75f67b89faf87b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4f02f06b6b9bd712822d2eae3270d3b1') in 0.0134455 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/polyperfect/Poly Halloween/Meshes/Halloween/SM_Broom_Old.fbx
+  artifactKey: Guid(e6b5ca5978574c14db6cc554ea3437c8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Meshes/Halloween/SM_Broom_Old.fbx using Guid(e6b5ca5978574c14db6cc554ea3437c8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9aade74fb05e397aac10f4c94a46aa8e') in 0.0245995 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/polyperfect/Poly Halloween/Prefabs/Halloween/Shovel_Gravedigger.prefab
+  artifactKey: Guid(f30aa3ad24da6454696bbf72dce6a69a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Prefabs/Halloween/Shovel_Gravedigger.prefab using Guid(f30aa3ad24da6454696bbf72dce6a69a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b74818c3575e86a3f5157865bff68dd1') in 0.0128841 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/polyperfect/Poly Halloween/Materials/Colors/M_59_Emission_White_PHP.mat
+  artifactKey: Guid(7aa69058d434059429c66a44b1abf238) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Materials/Colors/M_59_Emission_White_PHP.mat using Guid(7aa69058d434059429c66a44b1abf238) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0c1101b7869f139d08b4b1cc648c6a08') in 0.0128003 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/polyperfect/Poly Halloween/Meshes/Halloween/SM_Scarecrow_A.fbx
+  artifactKey: Guid(1e1c292275b80884c97279c3bfd12910) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Meshes/Halloween/SM_Scarecrow_A.fbx using Guid(1e1c292275b80884c97279c3bfd12910) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b206df681a633acf69a7a12aceb504d7') in 0.0135896 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/polyperfect/Poly Halloween/Prefabs/Modular Parts/Fences/Wall_Graveyard_3m.prefab
+  artifactKey: Guid(cec545ae7bcbbd64fa91a5e881fef7d0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Prefabs/Modular Parts/Fences/Wall_Graveyard_3m.prefab using Guid(cec545ae7bcbbd64fa91a5e881fef7d0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4b396a31e7905116dc2bbb71a13f2b89') in 0.0141034 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/polyperfect/Poly Halloween/Prefabs/Halloween/Cauldron_Potion_Empty.prefab
+  artifactKey: Guid(fe6bb0e66688f734a9e4cc5bfb502051) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Prefabs/Halloween/Cauldron_Potion_Empty.prefab using Guid(fe6bb0e66688f734a9e4cc5bfb502051) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '67e05094672af2045de60f1237981dd7') in 0.0135024 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/polyperfect/Poly Halloween/Meshes/Halloween/SM_Candle_Stick_B_Lit.fbx
+  artifactKey: Guid(e8b5b2b6e90c2bc4a959290fffd32278) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Meshes/Halloween/SM_Candle_Stick_B_Lit.fbx using Guid(e8b5b2b6e90c2bc4a959290fffd32278) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '20d4e368046f5ee00afdb7680404e3e1') in 0.0178688 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/polyperfect/Poly Halloween/Textures/Nature
+  artifactKey: Guid(de47d936fb796b140ae81d37a3bd6070) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Textures/Nature using Guid(de47d936fb796b140ae81d37a3bd6070) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1efaf17fad250321e42638c33cfd0771') in 0.0102896 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/polyperfect/Poly Halloween/Prefabs/Halloween/Spiderweb_B.prefab
+  artifactKey: Guid(63706c2eb561a3b4cb2a4c43668e1b08) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Prefabs/Halloween/Spiderweb_B.prefab using Guid(63706c2eb561a3b4cb2a4c43668e1b08) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a6a556c618fc071eb2e665d067c6c879') in 0.0142428 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/polyperfect/Poly Halloween/Materials/M_Universal_Glass_Night.mat
+  artifactKey: Guid(67ebe340f97be354c98766c2265fb834) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Materials/M_Universal_Glass_Night.mat using Guid(67ebe340f97be354c98766c2265fb834) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e9e1c74d7f230adf14f7213b64efc827') in 0.0597106 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/polyperfect/Poly Halloween/Prefabs/Halloween/Lanterns_On_String_2m.prefab
+  artifactKey: Guid(1ba68f217daf810458ec5dc2f7c131bf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Prefabs/Halloween/Lanterns_On_String_2m.prefab using Guid(1ba68f217daf810458ec5dc2f7c131bf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '97ad564b525edd046775e870a60b8350') in 0.013138 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/polyperfect/Poly Halloween/Meshes/Halloween/SM_Gravestone_Old_Cross.fbx
+  artifactKey: Guid(14aeba4054e1354408fc8b497eae6d75) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Meshes/Halloween/SM_Gravestone_Old_Cross.fbx using Guid(14aeba4054e1354408fc8b497eae6d75) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '06bf15769947f4a96c18986910532942') in 0.0141223 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/polyperfect/Poly Halloween/Meshes/Modular Parts/Fences
+  artifactKey: Guid(4b99a12b53abcbc4492d630694c1068d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Meshes/Modular Parts/Fences using Guid(4b99a12b53abcbc4492d630694c1068d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '19a3f121b235a29969d385d8f6eac741') in 0.0103675 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/polyperfect/Poly Halloween/Textures/Nature/Dirt_B_Nrm.png
+  artifactKey: Guid(322897a3f386af04da16877f496e12c9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Textures/Nature/Dirt_B_Nrm.png using Guid(322897a3f386af04da16877f496e12c9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+ -> (artifact id: '38085ad2e4b91f5e920248711338d38c') in 0.0631362 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/polyperfect/Poly Halloween/Prefabs/Halloween/Gibbet.prefab
+  artifactKey: Guid(9166965b178875f48988f6fc3e2b3ff8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Prefabs/Halloween/Gibbet.prefab using Guid(9166965b178875f48988f6fc3e2b3ff8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5ee03623350768933e6a1dd24491dbd7') in 0.0132385 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/polyperfect/Poly Halloween/Meshes/Modular Parts/Fences/SM_Wall_Graveyard_3m_Corner.fbx
+  artifactKey: Guid(b104dc6782e99914ab621eedffa44649) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Meshes/Modular Parts/Fences/SM_Wall_Graveyard_3m_Corner.fbx using Guid(b104dc6782e99914ab621eedffa44649) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '60eff5692421d288e23d93102aa246e5') in 0.0159023 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/polyperfect/Poly Halloween/Prefabs/People/Man_Ghost_Halloween.prefab
+  artifactKey: Guid(2de4fb22ab42969458d1f4738874c2a5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Prefabs/People/Man_Ghost_Halloween.prefab using Guid(2de4fb22ab42969458d1f4738874c2a5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3100bddc1d6b95714375d3ccca45b6cd') in 0.0136667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 169
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/polyperfect/Poly Halloween/Textures/Universal/Universal_A_Emit.png
+  artifactKey: Guid(6ae3d27c72fdfc8418c53369860ffef9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Textures/Universal/Universal_A_Emit.png using Guid(6ae3d27c72fdfc8418c53369860ffef9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6abcf27c4e54ae0f09db23b4eb50a6d9') in 0.035004 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/polyperfect/Poly Halloween/_Demo Scenes/DEMO_01_PolyHalloweenPack_Models/ReflectionProbe-0.exr
+  artifactKey: Guid(e0cca266719108e4599ab9b6182e98d5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/_Demo Scenes/DEMO_01_PolyHalloweenPack_Models/ReflectionProbe-0.exr using Guid(e0cca266719108e4599ab9b6182e98d5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3631700158c882ddfae259561c16b4bb') in 0.0149731 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/polyperfect/Poly Halloween/Meshes/Halloween/SM_Lanterns_On_String_5m.fbx
+  artifactKey: Guid(0b9beb4b19b53ae43a6172233561de8f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Meshes/Halloween/SM_Lanterns_On_String_5m.fbx using Guid(0b9beb4b19b53ae43a6172233561de8f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '35889a1d46fbb5bc5a832c7b54e09319') in 0.0150323 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/polyperfect/Poly Halloween/Meshes/Halloween/SM_Pumpkin_Carved_C.fbx
+  artifactKey: Guid(d793675a24b3a71478fb2f12301c9d83) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Meshes/Halloween/SM_Pumpkin_Carved_C.fbx using Guid(d793675a24b3a71478fb2f12301c9d83) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3df1abc4d6a1f232b5add917c0e3bac8') in 0.0302201 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/polyperfect/Poly Halloween/Prefabs/Halloween/Pumpkin_Carved_Lit_A.prefab
+  artifactKey: Guid(81a373bf062c567419256ed415c47f4b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Prefabs/Halloween/Pumpkin_Carved_Lit_A.prefab using Guid(81a373bf062c567419256ed415c47f4b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4550bdcb68e343b24b17c1d352bdd7b1') in 0.0154927 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/polyperfect/Poly Halloween/Meshes/Nature/Rocks
+  artifactKey: Guid(91e3b4ebcfe526a4486a41c781f2d489) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Meshes/Nature/Rocks using Guid(91e3b4ebcfe526a4486a41c781f2d489) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e25cf412085917e90c1e5c46a57c24a7') in 0.0103488 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/polyperfect/Poly Halloween/Meshes/Halloween/SM_Spiderweb_A.fbx
+  artifactKey: Guid(307c455af4f774e4aa3ea0da04e25175) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Meshes/Halloween/SM_Spiderweb_A.fbx using Guid(307c455af4f774e4aa3ea0da04e25175) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8d6d93986a4e6c87871ca040b71eeaaa') in 0.0156182 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/polyperfect/Poly Halloween/Meshes/People/SKM_Man_Killer_Halloween.fbx
+  artifactKey: Guid(ce41ed363dd63304b9094d25c7818d62) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Meshes/People/SKM_Man_Killer_Halloween.fbx using Guid(ce41ed363dd63304b9094d25c7818d62) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8c67179ff7163981aeaca4d7bb89b70e') in 0.01748 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 168
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/polyperfect/Poly Halloween/Meshes/Halloween/SM_Candle_Skull_Lit.fbx
+  artifactKey: Guid(a19b1378b8bf9084786d3680c52774b5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Meshes/Halloween/SM_Candle_Skull_Lit.fbx using Guid(a19b1378b8bf9084786d3680c52774b5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '257100afe1c6fe23815f41af54c4fc3b') in 0.016185 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/polyperfect/Poly Halloween/Meshes/Halloween/SM_String_Of_Flags_3m.fbx
+  artifactKey: Guid(ffda131c09f657840b8a8c6a3e4ffe3d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Meshes/Halloween/SM_String_Of_Flags_3m.fbx using Guid(ffda131c09f657840b8a8c6a3e4ffe3d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3ccd32d9afddb304fbee2c7c00111685') in 0.0149316 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/polyperfect/Poly Halloween/Meshes/Halloween/SM_Lollipop_Flat_A.fbx
+  artifactKey: Guid(05928b00c07a40243b5291d701c34851) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Meshes/Halloween/SM_Lollipop_Flat_A.fbx using Guid(05928b00c07a40243b5291d701c34851) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ea403a7bec835a7c934655dca4591b57') in 0.0160538 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/polyperfect/Poly Halloween/Meshes/Halloween/SM_Lanterns_On_String_3m.fbx
+  artifactKey: Guid(2a42e9d17ce519e4da125f7d9b591602) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Meshes/Halloween/SM_Lanterns_On_String_3m.fbx using Guid(2a42e9d17ce519e4da125f7d9b591602) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e4bda93b0a56d4d34666814862a5089f') in 0.0185585 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/polyperfect/Poly Halloween/Textures/Nature/Dirt_A_Alb.png
+  artifactKey: Guid(af3cfda8da7b34b46bdc8cf9d95509df) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Textures/Nature/Dirt_A_Alb.png using Guid(af3cfda8da7b34b46bdc8cf9d95509df) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '567ffc818412e9222f297fd1d1f57ee2') in 0.0505155 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/polyperfect/Poly Halloween/Prefabs/Halloween/Candle_Skull_Lit.prefab
+  artifactKey: Guid(369456f238c2221498ccdf16df24b160) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Prefabs/Halloween/Candle_Skull_Lit.prefab using Guid(369456f238c2221498ccdf16df24b160) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a6bc5fc5783b3c0c23b92d28e2aa89f9') in 0.0158871 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/polyperfect/Poly Halloween/Meshes/Halloween/SM_Candle_Stick_C_Lit.fbx
+  artifactKey: Guid(9a04adaf8883c184f8e7da4878c62c64) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Meshes/Halloween/SM_Candle_Stick_C_Lit.fbx using Guid(9a04adaf8883c184f8e7da4878c62c64) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e993524ed16d08a7f438a2fb3a00dfa9') in 0.0147208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/polyperfect/Poly Halloween/Meshes/Halloween/SM_Pumpkin_Candy.fbx
+  artifactKey: Guid(6c0e584b97c9c0e479d39c9e403d176b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Meshes/Halloween/SM_Pumpkin_Candy.fbx using Guid(6c0e584b97c9c0e479d39c9e403d176b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a4c71010203f3b2408b8f98dca7c79fc') in 0.0126308 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/polyperfect/Poly Halloween/Prefabs/Modular Parts/Fences/Wall_Graveyard_End 1.prefab
+  artifactKey: Guid(e2988c31f93223f45b96296589bed8a2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Prefabs/Modular Parts/Fences/Wall_Graveyard_End 1.prefab using Guid(e2988c31f93223f45b96296589bed8a2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd24c8090f83a4a4684a465044fd513d3') in 0.0133551 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/polyperfect/Poly Halloween/Prefabs/Halloween/Book_Stand_Halloween.prefab
+  artifactKey: Guid(e0ff17931e0cd604f9658b2ae15aea66) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Prefabs/Halloween/Book_Stand_Halloween.prefab using Guid(e0ff17931e0cd604f9658b2ae15aea66) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f981d44a077bf53ff0f7830a74255973') in 0.0125758 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Building/Materials/SkyMaterials/DarkStorm.mat
+  artifactKey: Guid(2039a0ad0a9d05549928b70362f54902) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Building/Materials/SkyMaterials/DarkStorm.mat using Guid(2039a0ad0a9d05549928b70362f54902) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1ca1f795006d39da70b257d17cbdca7a') in 0.2243021 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/polyperfect/Poly Halloween/Meshes/Halloween/SM_Lantern_Street_Movable_Halloween.fbx
+  artifactKey: Guid(7eb9e2f2950f3304990e9650eb6410c0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Meshes/Halloween/SM_Lantern_Street_Movable_Halloween.fbx using Guid(7eb9e2f2950f3304990e9650eb6410c0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ef2017bdc23c1c03adb432ecce02bd63') in 0.0178042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/polyperfect/Poly Halloween/Prefabs/Halloween/String_Of_Flags_2m.prefab
+  artifactKey: Guid(cf1c900a9c6297b4bab69c67eea65093) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Prefabs/Halloween/String_Of_Flags_2m.prefab using Guid(cf1c900a9c6297b4bab69c67eea65093) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '583145c72206751e53ad2984ef98e96b') in 0.0138495 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset
+  artifactKey: Guid(125cb55b44b24c4393181402bc6200e6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset using Guid(125cb55b44b24c4393181402bc6200e6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a29b5e1743ddcbc4a2994d94bc8780ce') in 0.0678758 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/polyperfect/Poly Halloween/Meshes
+  artifactKey: Guid(463129d3e6af9d845bca66e3671a4cc5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Meshes using Guid(463129d3e6af9d845bca66e3671a4cc5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a9ed48db4f9d76699a18bf334ca844e9') in 0.0087644 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/polyperfect/Poly Halloween/Meshes/Halloween/SM_Candle_Finger_Holder_Lit.fbx
+  artifactKey: Guid(da1cd9b107929d74fbac2066d7477d91) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Meshes/Halloween/SM_Candle_Finger_Holder_Lit.fbx using Guid(da1cd9b107929d74fbac2066d7477d91) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a8c0383afb63d1304c8ad237e824787d') in 0.015535 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/polyperfect/Poly Halloween/Materials/Colors/M_60_Emmision_Red_PHP.mat
+  artifactKey: Guid(99ea94f4d3d64de44aec65fb3f9eb667) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Materials/Colors/M_60_Emmision_Red_PHP.mat using Guid(99ea94f4d3d64de44aec65fb3f9eb667) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a5be4b9db0e0899912780590d35cc822') in 0.0109559 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/polyperfect/Poly Halloween/Prefabs/Halloween/Coffin_Old.prefab
+  artifactKey: Guid(5f7dbd80b21547d4b858ab33922e2740) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Prefabs/Halloween/Coffin_Old.prefab using Guid(5f7dbd80b21547d4b858ab33922e2740) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '720d48f4f5d501286ee2664b63ed9dc0') in 0.0103399 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/polyperfect/Poly Halloween/Meshes/Halloween/SM_String_Of_Flags_5m.fbx
+  artifactKey: Guid(01b2d267ca3557540bf17e76dba09049) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Meshes/Halloween/SM_String_Of_Flags_5m.fbx using Guid(01b2d267ca3557540bf17e76dba09049) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c7b4c5d28352a4b79b4c5cc265ba92ba') in 0.0141764 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/polyperfect/Poly Halloween/Textures/Universal/Universal_Metal.tif
+  artifactKey: Guid(fd22d0e5ce533a6458c79bd374ec9cf8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Textures/Universal/Universal_Metal.tif using Guid(fd22d0e5ce533a6458c79bd374ec9cf8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e57b417506bdc77bd8ad9a8a04ed19a5') in 0.0444467 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/polyperfect/Poly Halloween/Prefabs/First person character.prefab
+  artifactKey: Guid(7fcfd2b2a44cc3e4d96f3a35ef7a2a56) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Prefabs/First person character.prefab using Guid(7fcfd2b2a44cc3e4d96f3a35ef7a2a56) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dd09571b2ecee0d618636914c3372984') in 0.0171691 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 183
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/polyperfect/Poly Halloween/Meshes/Modular Parts/Fences/SM_Gate_Graveyard.fbx
+  artifactKey: Guid(eab25d0fbde50624694d6a47f3a5dbe7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Meshes/Modular Parts/Fences/SM_Gate_Graveyard.fbx using Guid(eab25d0fbde50624694d6a47f3a5dbe7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5f8c97c13ac41a1a456845861104665c') in 0.0153503 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/polyperfect/Poly Halloween/Prefabs/Nature/Trees/Tree_Poplar_Dead_A.prefab
+  artifactKey: Guid(3c8772670f7f8e9478fa577f8630b365) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Prefabs/Nature/Trees/Tree_Poplar_Dead_A.prefab using Guid(3c8772670f7f8e9478fa577f8630b365) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3cc5a293680d89274abbe227db00b09f') in 0.0130976 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/polyperfect/Poly Halloween/Prefabs/Modular Parts/Fences/Wall_Graveyard_3m_Corner.prefab
+  artifactKey: Guid(85805862c6f82c341af4aaa9ed189d05) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Prefabs/Modular Parts/Fences/Wall_Graveyard_3m_Corner.prefab using Guid(85805862c6f82c341af4aaa9ed189d05) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e6876fed7a9880a9d3d6197bc7e14d4c') in 0.0134137 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/polyperfect/Poly Halloween/Prefabs/Halloween/Lollipop_Flat_B.prefab
+  artifactKey: Guid(b5926654dfa9b1542863022636efddcc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Prefabs/Halloween/Lollipop_Flat_B.prefab using Guid(b5926654dfa9b1542863022636efddcc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '752021e5b0b6bfccf9d33947dfc5f305') in 0.0268946 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/polyperfect/Poly Halloween/Textures/Grass
+  artifactKey: Guid(b835b9b2de1723742bc113192f056766) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Textures/Grass using Guid(b835b9b2de1723742bc113192f056766) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '51514278c5d2da21c192ec16255db085') in 0.0157457 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/polyperfect/Poly Halloween/Prefabs/Modular Parts/Fences/Wall_Graveyard_1m_Corner.prefab
+  artifactKey: Guid(8032b61f51e3ff342ad0e9db0738f8be) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Prefabs/Modular Parts/Fences/Wall_Graveyard_1m_Corner.prefab using Guid(8032b61f51e3ff342ad0e9db0738f8be) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7381d3e2bf605d059c16e8e5d510996d') in 0.0139683 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/polyperfect/Poly Halloween/Prefabs/Halloween/Mushroom_Magical_Cluster_A.prefab
+  artifactKey: Guid(17ecc69fedc732d4b96ab4722d7dd95f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Prefabs/Halloween/Mushroom_Magical_Cluster_A.prefab using Guid(17ecc69fedc732d4b96ab4722d7dd95f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '231269442e010c587de254784d86fd3d') in 0.0134939 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/polyperfect/Poly Halloween/Prefabs/Modular Parts/Fences/Wall_Graveyard_2m.prefab
+  artifactKey: Guid(58543e3d6e1c1f5488ffd8c9ba997c4c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Prefabs/Modular Parts/Fences/Wall_Graveyard_2m.prefab using Guid(58543e3d6e1c1f5488ffd8c9ba997c4c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '162f0039ccd8346695173d8dde854b1b') in 0.0144199 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/polyperfect/Poly Halloween/README_PolyHalloween.pdf
+  artifactKey: Guid(f52d472fee0cce94da6aa4ed08d7cf12) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/README_PolyHalloween.pdf using Guid(f52d472fee0cce94da6aa4ed08d7cf12) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '65c9decf55cee4c097fdddd8e735187d') in 0.0098147 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/polyperfect/Poly Halloween/Meshes/Halloween/SM_Tree_Scary_Dead.fbx
+  artifactKey: Guid(cd37ad33a1e7a2849911b9d0bb7f9e3f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Meshes/Halloween/SM_Tree_Scary_Dead.fbx using Guid(cd37ad33a1e7a2849911b9d0bb7f9e3f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c6f27dfd54b0ab051708f4b922400a25') in 0.0140908 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/polyperfect/Poly Halloween/Prefabs/Modular Parts/Fences/Wall_Graveyard_1m.prefab
+  artifactKey: Guid(a360f7d95901f2e4081dccc2d8cd0542) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Prefabs/Modular Parts/Fences/Wall_Graveyard_1m.prefab using Guid(a360f7d95901f2e4081dccc2d8cd0542) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '081fc2126ebe037a8355426bcc2ed249') in 0.0131276 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 9.01 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7207 unused Assets / (4.7 MB). Loaded Objects now: 7975.
+Memory consumption went from 141.6 MB to 137.0 MB.
+Total: 8.772700 ms (FindLiveObjects: 0.788200 ms CreateObjectMapping: 0.325000 ms MarkObjects: 5.326100 ms  DeleteObjects: 2.332200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 10.79 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7206 unused Assets / (4.6 MB). Loaded Objects now: 7975.
+Memory consumption went from 141.6 MB to 137.0 MB.
+Total: 10.781800 ms (FindLiveObjects: 1.001700 ms CreateObjectMapping: 0.518100 ms MarkObjects: 6.197600 ms  DeleteObjects: 3.063500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.624 seconds
+Refreshing native plugins compatible for Editor in 8.38 ms, found 10 plugins.
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal@1e1527b3a17b/Runtime/Data/UniversalRenderPipelineAsset.cs:432)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@1e1527b3a17b/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 432)
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.649 seconds
+Domain Reload Profiling: 1272ms
+	BeginReloadAssembly (199ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (76ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (364ms)
+		LoadAssemblies (283ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (152ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (128ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (649ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (512ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (106ms)
+			ProcessInitializeOnLoadAttributes (302ms)
+			ProcessInitializeOnLoadMethodAttributes (89ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 9.53 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7244 unused Assets / (4.2 MB). Loaded Objects now: 8001.
+Memory consumption went from 148.1 MB to 143.9 MB.
+Total: 7.443300 ms (FindLiveObjects: 0.906000 ms CreateObjectMapping: 0.435600 ms MarkObjects: 4.249300 ms  DeleteObjects: 1.851700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 9.51 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7207 unused Assets / (4.9 MB). Loaded Objects now: 7990.
+Memory consumption went from 147.9 MB to 143.0 MB.
+Total: 9.704500 ms (FindLiveObjects: 0.889500 ms CreateObjectMapping: 0.749100 ms MarkObjects: 4.845500 ms  DeleteObjects: 3.219300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.704 seconds
+Refreshing native plugins compatible for Editor in 9.55 ms, found 10 plugins.
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal@1e1527b3a17b/Runtime/Data/UniversalRenderPipelineAsset.cs:432)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@1e1527b3a17b/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 432)
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.781 seconds
+Domain Reload Profiling: 1482ms
+	BeginReloadAssembly (201ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (424ms)
+		LoadAssemblies (323ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (191ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (164ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (781ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (624ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (120ms)
+			ProcessInitializeOnLoadAttributes (380ms)
+			ProcessInitializeOnLoadMethodAttributes (105ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 10.14 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7245 unused Assets / (4.7 MB). Loaded Objects now: 8004.
+Memory consumption went from 148.1 MB to 143.4 MB.
+Total: 10.523400 ms (FindLiveObjects: 1.065200 ms CreateObjectMapping: 0.756100 ms MarkObjects: 5.420300 ms  DeleteObjects: 3.280200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 11.35 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7207 unused Assets / (4.7 MB). Loaded Objects now: 7992.
+Memory consumption went from 147.9 MB to 143.3 MB.
+Total: 9.545100 ms (FindLiveObjects: 0.855100 ms CreateObjectMapping: 0.449900 ms MarkObjects: 4.850800 ms  DeleteObjects: 3.388200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.590 seconds
+Refreshing native plugins compatible for Editor in 8.20 ms, found 10 plugins.
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal@1e1527b3a17b/Runtime/Data/UniversalRenderPipelineAsset.cs:432)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@1e1527b3a17b/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 432)
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.612 seconds
+Domain Reload Profiling: 1201ms
+	BeginReloadAssembly (172ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (358ms)
+		LoadAssemblies (288ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (149ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (122ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (613ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (493ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (91ms)
+			ProcessInitializeOnLoadAttributes (295ms)
+			ProcessInitializeOnLoadMethodAttributes (91ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 8.99 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7245 unused Assets / (4.5 MB). Loaded Objects now: 8006.
+Memory consumption went from 148.1 MB to 143.7 MB.
+Total: 8.163200 ms (FindLiveObjects: 0.908500 ms CreateObjectMapping: 0.433300 ms MarkObjects: 4.579400 ms  DeleteObjects: 2.241300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

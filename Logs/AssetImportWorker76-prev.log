@@ -1,0 +1,1015 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-aweso" at "2025-12-03T07:13:29.2720629Z"
+Built from '6000.2/respin/6000.2.6f2-cc51a95c03' branch; Version is '6000.2.6f2 (4a4dcaec6541) revision 4869578'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) 64bit Core' Language: 'en' Physical Memory: 31967 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2025-12-03T07:13:29Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.2.6f2\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker76
+-projectPath
+C:/Users/aweso/Documents/SugarBound.07
+-logFile
+Logs/AssetImportWorker76.log
+-srvPort
+53752
+-licensingIpc
+LicenseClient-aweso
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/aweso/Documents/SugarBound.07
+C:/Users/aweso/Documents/SugarBound.07
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [92800]  Target information:
+
+Player connection [92800]  * "[IP] 192.168.1.127 [Port] 0 [Flags] 2 [Guid] 3405371525 [EditorId] 3405371525 [Version] 1048832 [Id] WindowsEditor(7,DevinPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [92800] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [92800] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 31572, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.3+a4e98f1
+  Session Id:              1d82a9a24832433fa9f15c2358b90044
+  Correlation Id:          ebc368e6c0632ba8f55a6b47cfb5cd2c
+  External correlation Id: 3696791557014759665
+  Machine Id:              cPCzQz9axXHQmewSXrMKmPRaxqY=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-aweso" (connect: 0.00s, validation: 0.00s, handshake: 0.03s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-aweso-notifications" at "2025-12-03T07:13:29.3012171Z"
+[Licensing::Module] Licensing Background thread has ended after 0.03s
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 1375641944432-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Refreshing native plugins compatible for Editor in 15.33 ms, found 10 plugins.
+Unity memory allocator detected: MetaXRAudio native memory allocations will be tracked.
+Preloading 1 native plugins for Editor in 0.98 ms.
+Initialize engine version: 6000.2.6f2 (4a4dcaec6541)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/aweso/Documents/SugarBound.07/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Ti (ID=0x2803)
+    Vendor:   NVIDIA
+    VRAM:     7949 MB
+    Driver:   32.0.15.8157
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56100
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.004401 seconds.
+- Loaded All Assemblies, in  0.311 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 213 ms
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.470 seconds
+Domain Reload Profiling: 779ms
+	BeginReloadAssembly (100ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (127ms)
+		LoadAssemblies (98ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (124ms)
+			TypeCache.Refresh (123ms)
+				TypeCache.ScanAssembly (111ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (470ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (435ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (288ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (38ms)
+			ProcessInitializeOnLoadAttributes (72ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.638 seconds
+Refreshing native plugins compatible for Editor in 7.60 ms, found 10 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal@1e1527b3a17b/Runtime/Data/UniversalRenderPipelineAsset.cs:432)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@1e1527b3a17b/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 432)
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.702 seconds
+Domain Reload Profiling: 1334ms
+	BeginReloadAssembly (159ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (396ms)
+		LoadAssemblies (294ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (189ms)
+			TypeCache.Refresh (138ms)
+				TypeCache.ScanAssembly (125ms)
+			BuildScriptInfoCaches (40ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (702ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (548ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (96ms)
+			ProcessInitializeOnLoadAttributes (339ms)
+			ProcessInitializeOnLoadMethodAttributes (98ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 9.30 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7245 unused Assets / (4.9 MB). Loaded Objects now: 7980.
+Memory consumption went from 140.5 MB to 135.6 MB.
+Total: 9.296200 ms (FindLiveObjects: 1.043600 ms CreateObjectMapping: 0.625400 ms MarkObjects: 5.010400 ms  DeleteObjects: 2.615600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 95868.365265 seconds.
+  path: Assets/polyperfect/Poly Halloween/Meshes/Nature/Grass/SM_Grass_Middle_A.fbx
+  artifactKey: Guid(5a31da9f7f5d36744865ce23eab9e404) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Meshes/Nature/Grass/SM_Grass_Middle_A.fbx using Guid(5a31da9f7f5d36744865ce23eab9e404) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0be4dbd66359631d40bdd4878187239f') in 0.2125783 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/polyperfect/Poly Halloween/Meshes/Modular Parts/Fences/SM_Wall_Graveyard_Pillar.fbx
+  artifactKey: Guid(ccf5ff725becd2c4093234367bb756c1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Meshes/Modular Parts/Fences/SM_Wall_Graveyard_Pillar.fbx using Guid(ccf5ff725becd2c4093234367bb756c1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1c8ff41f5998b5d200b02f31f3ca36e4') in 0.0158189 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/polyperfect/Poly Halloween/Meshes/People
+  artifactKey: Guid(79e5f0bdd4526794f804c0fb3b5099a8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Meshes/People using Guid(79e5f0bdd4526794f804c0fb3b5099a8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '91ed6d6fb0e8c2ae450612b6b3c02b96') in 0.0102376 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/polyperfect/Poly Halloween/Meshes/Halloween/SM_Cauldron_Potion_Empty.fbx
+  artifactKey: Guid(795f3a3e5cb67364c9e77d1fe76f3ab1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Meshes/Halloween/SM_Cauldron_Potion_Empty.fbx using Guid(795f3a3e5cb67364c9e77d1fe76f3ab1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2e46eb714945db73fe4dd74b71072688') in 0.0128884 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/polyperfect/Poly Halloween/Prefabs/Halloween/Pumpkin_Carved_B.prefab
+  artifactKey: Guid(af636b4a2386385498c4965db0064a73) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Prefabs/Halloween/Pumpkin_Carved_B.prefab using Guid(af636b4a2386385498c4965db0064a73) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2d78d9ba331b454252d011af994bfaf4') in 0.0150321 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/polyperfect/Poly Halloween/Meshes/Halloween/SM_Candy_Stick.fbx
+  artifactKey: Guid(a893b84fd0f6f754c81ccbd8e7287677) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Meshes/Halloween/SM_Candy_Stick.fbx using Guid(a893b84fd0f6f754c81ccbd8e7287677) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7bfac8973127544e2fedcb737b096dd6') in 0.0142695 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/polyperfect/Poly Halloween/Meshes/Halloween/SM_Pumpkin_Carved_A.fbx
+  artifactKey: Guid(90d7d229b93c61945908189223393d64) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Meshes/Halloween/SM_Pumpkin_Carved_A.fbx using Guid(90d7d229b93c61945908189223393d64) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e3abd4c5d2fb777fd82f39a2f09d72f8') in 0.0157299 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/polyperfect/Poly Halloween/Prefabs/Halloween/Scarecrow_B.prefab
+  artifactKey: Guid(b690cb73b33aed849b8f65e31595dea7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Prefabs/Halloween/Scarecrow_B.prefab using Guid(b690cb73b33aed849b8f65e31595dea7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ac4e2be9d77b5d782e29239119cc69d1') in 0.0137362 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/polyperfect/Poly Halloween/Materials/Colors/M_65_Water_PHP.mat
+  artifactKey: Guid(06e97dc919d68d048b80bffc992c01e5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Materials/Colors/M_65_Water_PHP.mat using Guid(06e97dc919d68d048b80bffc992c01e5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '22746abd2acfd8dd5d7f9d55baa8f9ad') in 0.0253639 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/polyperfect/Poly Halloween/Textures/Nature/Rock_Nrm.png
+  artifactKey: Guid(4cbf06d4165475941aacbacdf3107599) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Textures/Nature/Rock_Nrm.png using Guid(4cbf06d4165475941aacbacdf3107599) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e4eb12d4efed41afd6e4df8ddefb63f8') in 0.078166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/polyperfect/Poly Halloween/_Demo Scenes/DEMO_02_Graveyard/ReflectionProbe-0.exr
+  artifactKey: Guid(e4197b5db3ebd644b80a8cba2dbe5779) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/_Demo Scenes/DEMO_02_Graveyard/ReflectionProbe-0.exr using Guid(e4197b5db3ebd644b80a8cba2dbe5779) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '020d0cf5669bd288ec0025caddb82060') in 0.0168805 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/polyperfect/Poly Halloween/Scripts/Polyperfect.Universal.asmdef
+  artifactKey: Guid(3976a7571bb4e294aa7c65daf4bb4bbd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Scripts/Polyperfect.Universal.asmdef using Guid(3976a7571bb4e294aa7c65daf4bb4bbd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '519c030db4d227222dc5ae0c0aa6a59e') in 0.0125542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/polyperfect/Poly Halloween/_Demo Scenes/DEMO_02_Graveyard.unity
+  artifactKey: Guid(669716b1cdf60e943962eae184f2693e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/_Demo Scenes/DEMO_02_Graveyard.unity using Guid(669716b1cdf60e943962eae184f2693e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '86e96d2951a784771d70d850c3f75710') in 0.0148887 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/polyperfect/Poly Halloween/Prefabs/Halloween/Book_Magical_Eye.prefab
+  artifactKey: Guid(cac386581a232d24f873b482684674bd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Prefabs/Halloween/Book_Magical_Eye.prefab using Guid(cac386581a232d24f873b482684674bd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '925d6aa7eee92391bc9fc494c9f0ad67') in 0.0119786 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/polyperfect/Poly Halloween/Prefabs/Halloween/Candy_Pumpkin.prefab
+  artifactKey: Guid(02a2903fd6ff3bb46b4e541371cc79e4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Prefabs/Halloween/Candy_Pumpkin.prefab using Guid(02a2903fd6ff3bb46b4e541371cc79e4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '372b7212794d3b8d731d315efc1b9757') in 0.0119308 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/polyperfect/Poly Halloween/_Demo Scenes
+  artifactKey: Guid(61db662fe333e24429d7acbe7b873dcc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/_Demo Scenes using Guid(61db662fe333e24429d7acbe7b873dcc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b15c7a56fb938d2f31a9c8729d7bbd01') in 0.0112235 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/polyperfect/Poly Halloween/HDRP_PolyHalloweenPack.unitypackage
+  artifactKey: Guid(9564d00ff2fa45a47a6f88ef8f53bbf3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/HDRP_PolyHalloweenPack.unitypackage using Guid(9564d00ff2fa45a47a6f88ef8f53bbf3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a5fcf06018c67bba6616d478c0e3c8c3') in 0.0114968 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/polyperfect/Poly Halloween/Prefabs/Halloween/Mushroom_Magical_Cluster_B.prefab
+  artifactKey: Guid(3d3d834937d9f3a49b4c07f06f6f51b9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Prefabs/Halloween/Mushroom_Magical_Cluster_B.prefab using Guid(3d3d834937d9f3a49b4c07f06f6f51b9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '87a9b39b30834b6653c7fe4c3c5b2615') in 0.0345186 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/polyperfect/Poly Halloween/Prefabs/Nature/Grass
+  artifactKey: Guid(05fc19dd83200a14aaca8f6db98b0507) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Prefabs/Nature/Grass using Guid(05fc19dd83200a14aaca8f6db98b0507) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f45b4b9e131d287a7242ad687f1f776e') in 0.012494 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/polyperfect/Poly Halloween/_Demo Scenes/Terrain/terrain-dirt-layer.terrainlayer
+  artifactKey: Guid(2ff5d598b6f42fe43ac7174836a512be) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/_Demo Scenes/Terrain/terrain-dirt-layer.terrainlayer using Guid(2ff5d598b6f42fe43ac7174836a512be) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '003a3e4185cd1d342f4a4b61387c837b') in 0.0721816 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/polyperfect/Poly Halloween/Prefabs/Nature/Rocks
+  artifactKey: Guid(455d5c0de1ce5624e8d4d33f5eabdc32) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Prefabs/Nature/Rocks using Guid(455d5c0de1ce5624e8d4d33f5eabdc32) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6f5853c58280d2ec1b6d92c2a10fda1c') in 0.0104275 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Baker'sCorner/Ingredient/CookieSheet/BakingSheetCookies 6.prefab
+  artifactKey: Guid(1d8d52d08179c8f409a561e43c0f24a7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Baker'sCorner/Ingredient/CookieSheet/BakingSheetCookies 6.prefab using Guid(1d8d52d08179c8f409a561e43c0f24a7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b562aa37856be2fc500aad720772ca42') in 0.056398 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 38
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Baker'sCorner/Tool/BakingSheetEmpty.prefab
+  artifactKey: Guid(1156ab04f76a44b4d8bce596172f56c0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Baker'sCorner/Tool/BakingSheetEmpty.prefab using Guid(1156ab04f76a44b4d8bce596172f56c0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c628f55f455849330d653b9fb32a0b44') in 0.0229883 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 55
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/polyperfect/Poly Halloween/Prefabs
+  artifactKey: Guid(2f0f97661ded029478cf9558fb6d38eb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Prefabs using Guid(2f0f97661ded029478cf9558fb6d38eb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '694d659d5dad06602ac97b348e784a2f') in 0.0107655 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/polyperfect/Poly Halloween/Prefabs/Halloween/Candy_Stick.prefab
+  artifactKey: Guid(7af4f0a4609974949a9a0ee588dd2f57) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Prefabs/Halloween/Candy_Stick.prefab using Guid(7af4f0a4609974949a9a0ee588dd2f57) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cb445dac4116d3626b264e0a96b2f95d') in 0.0137454 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/polyperfect/Poly Halloween/Prefabs/terrain/Terrain.prefab
+  artifactKey: Guid(ae223b21e5d3206419603b794c3013ee) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Prefabs/terrain/Terrain.prefab using Guid(ae223b21e5d3206419603b794c3013ee) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '337b7ef7762dd00958c184ecad7731fc') in 0.016203 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/polyperfect/Poly Halloween/Textures/Universal/Universal_A_Alb.png
+  artifactKey: Guid(67add9ef0e23b384292439e0e6ea3dd9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Textures/Universal/Universal_A_Alb.png using Guid(67add9ef0e23b384292439e0e6ea3dd9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8c32aa27ba6dc1c7b3db3d92d13c60c7') in 0.0610513 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/polyperfect/Poly Halloween/Prefabs/Halloween/Mushroom_Magical_Amanita_Baby.prefab
+  artifactKey: Guid(33fd26760d9e0744882bcc652ba86ae0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Prefabs/Halloween/Mushroom_Magical_Amanita_Baby.prefab using Guid(33fd26760d9e0744882bcc652ba86ae0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2f867834beff011761c614d1cb312684') in 0.015413 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/polyperfect/Poly Halloween/Meshes/Halloween/SM_Mushroom_Magical_Cluster_A.fbx
+  artifactKey: Guid(e376ed6d5315e8e4dbd1737ce24bebea) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Meshes/Halloween/SM_Mushroom_Magical_Cluster_A.fbx using Guid(e376ed6d5315e8e4dbd1737ce24bebea) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd59b3b5a5fd59c3eb04ec45a10be27eb') in 0.0162715 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/polyperfect/Poly Halloween/_Demo Scenes/DEMO_01_PolyHalloweenPack_Models/LightingData.asset
+  artifactKey: Guid(2394e335f39421c40a6f44794ba99ae3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/_Demo Scenes/DEMO_01_PolyHalloweenPack_Models/LightingData.asset using Guid(2394e335f39421c40a6f44794ba99ae3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0f169197fdd8b6b81d13699400803bce') in 0.0110419 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/polyperfect/Poly Halloween/Prefabs/People/Boy_Ghost_Halloween.prefab
+  artifactKey: Guid(5427496dc43752d44916ff576bef363b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Prefabs/People/Boy_Ghost_Halloween.prefab using Guid(5427496dc43752d44916ff576bef363b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b0f7be1dfb6e7a613818a140923d9a46') in 0.0176588 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 169
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/polyperfect/Poly Halloween/Meshes/Halloween/SM_Stump_Possesed.fbx
+  artifactKey: Guid(3f83b87988a71504da83be8676319de2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Meshes/Halloween/SM_Stump_Possesed.fbx using Guid(3f83b87988a71504da83be8676319de2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '19ca1438f5b33138adaa07d9afeab8e1') in 0.0142732 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/polyperfect/Poly Halloween/Materials/VFX/M_VFX_Candle_Fire.mat
+  artifactKey: Guid(ec3e6f76edcea8d4da87cf26594591ca) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Materials/VFX/M_VFX_Candle_Fire.mat using Guid(ec3e6f76edcea8d4da87cf26594591ca) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'be2d0ca74f0369f92f07703399f92eba') in 0.0248011 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/polyperfect/Poly Halloween/Prefabs/Halloween/Pumpkin_Carved_A.prefab
+  artifactKey: Guid(94db350adfd5a3d4eb7c62ccad6d22ab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Prefabs/Halloween/Pumpkin_Carved_A.prefab using Guid(94db350adfd5a3d4eb7c62ccad6d22ab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'febfe0eeb88c119728f985bc9ae2fc8d') in 0.0135416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/polyperfect/Poly Halloween/Prefabs/Nature/Rocks/Rock_A.prefab
+  artifactKey: Guid(0604ce9b58da7114aa77bfa1ef820aea) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Prefabs/Nature/Rocks/Rock_A.prefab using Guid(0604ce9b58da7114aa77bfa1ef820aea) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a10da669027549d8fecfda95a9cd9f04') in 0.0137828 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/polyperfect/Poly Halloween/_Demo Scenes/DEMO_LightingSettings.lighting
+  artifactKey: Guid(e7faac94e30b7fd4eb0f086b7c08639f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/_Demo Scenes/DEMO_LightingSettings.lighting using Guid(e7faac94e30b7fd4eb0f086b7c08639f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6305b7a6aa3eccc3e327d73a8dd4c383') in 0.0148466 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/polyperfect/Poly Halloween/Meshes/Halloween/SM_Coffin_New.fbx
+  artifactKey: Guid(3645208b986d09a4e8bd9d29cebc4d9a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Meshes/Halloween/SM_Coffin_New.fbx using Guid(3645208b986d09a4e8bd9d29cebc4d9a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f75aeaa458d9dcfcf4bedf927e90ee22') in 0.0322022 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/polyperfect/Poly Halloween/Textures/Universal/Universal_Mask.tif
+  artifactKey: Guid(5484b2c0e3fe5ca4d98cc56a3eeba800) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polyperfect/Poly Halloween/Textures/Universal/Universal_Mask.tif using Guid(5484b2c0e3fe5ca4d98cc56a3eeba800) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bef93e4b3ecf547fd3134a743e41f9f7') in 0.0424338 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 8.95 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7208 unused Assets / (4.5 MB). Loaded Objects now: 7972.
+Memory consumption went from 140.4 MB to 135.9 MB.
+Total: 8.622600 ms (FindLiveObjects: 0.706200 ms CreateObjectMapping: 0.352900 ms MarkObjects: 5.026000 ms  DeleteObjects: 2.536600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.440872 seconds.
+  path: Assets/Baker'sCorner/Scripts/Baking_Main/Plate.cs
+  artifactKey: Guid(6614e14667b119744810380d9045af48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/Scripts/Baking_Main/Plate.cs using Guid(6614e14667b119744810380d9045af48) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e6e5191fd6ba1a2c345a713ccfc0263a') in 0.0019604 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.632842 seconds.
+  path: Assets/Baker'sCorner/Scripts/Baking_Main/Plate.cs
+  artifactKey: Guid(6614e14667b119744810380d9045af48) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Baker'sCorner/Scripts/Baking_Main/Plate.cs using Guid(6614e14667b119744810380d9045af48) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ca37d3c9351bfaea04a2ac809fecc165') in 0.0118625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 11.19 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7206 unused Assets / (4.6 MB). Loaded Objects now: 7972.
+Memory consumption went from 140.4 MB to 135.9 MB.
+Total: 10.756900 ms (FindLiveObjects: 0.944400 ms CreateObjectMapping: 0.586200 ms MarkObjects: 6.112400 ms  DeleteObjects: 3.112100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.041415 seconds.
+  path: Assets/Baker'sCorner/Scripts/Baking_Main/Plate.cs
+  artifactKey: Guid(6614e14667b119744810380d9045af48) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Baker'sCorner/Scripts/Baking_Main/Plate.cs using Guid(6614e14667b119744810380d9045af48) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6a2c9b42faceb6ca6e736868bf3f7cfd') in 0.0146945 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.636 seconds
+Refreshing native plugins compatible for Editor in 8.21 ms, found 10 plugins.
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal@1e1527b3a17b/Runtime/Data/UniversalRenderPipelineAsset.cs:432)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@1e1527b3a17b/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 432)
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.671 seconds
+Domain Reload Profiling: 1306ms
+	BeginReloadAssembly (201ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (74ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (374ms)
+		LoadAssemblies (292ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (155ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (132ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (671ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (527ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (111ms)
+			ProcessInitializeOnLoadAttributes (313ms)
+			ProcessInitializeOnLoadMethodAttributes (87ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 8.26 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7244 unused Assets / (4.4 MB). Loaded Objects now: 7998.
+Memory consumption went from 146.9 MB to 142.5 MB.
+Total: 6.388000 ms (FindLiveObjects: 0.645100 ms CreateObjectMapping: 0.591000 ms MarkObjects: 3.381100 ms  DeleteObjects: 1.769700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 8.93 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7207 unused Assets / (4.0 MB). Loaded Objects now: 7987.
+Memory consumption went from 146.7 MB to 142.7 MB.
+Total: 7.105100 ms (FindLiveObjects: 0.889700 ms CreateObjectMapping: 0.315800 ms MarkObjects: 3.845800 ms  DeleteObjects: 2.053000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 24.016886 seconds.
+  path: Assets/Baker'sCorner/Scripts/Baking_Main/CookedFood.cs
+  artifactKey: Guid(29ae8c97b2f24af41999b5f021cd5dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/Scripts/Baking_Main/CookedFood.cs using Guid(29ae8c97b2f24af41999b5f021cd5dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5481ea89eba53de7e3d7bc1f808eb710') in 0.0029683 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.526530 seconds.
+  path: Assets/Baker'sCorner/Scripts/Baking_Main/CookedFood.cs
+  artifactKey: Guid(29ae8c97b2f24af41999b5f021cd5dee) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Baker'sCorner/Scripts/Baking_Main/CookedFood.cs using Guid(29ae8c97b2f24af41999b5f021cd5dee) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7c5985e967588344e1dc0922d66e4eb3') in 0.1430791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.755 seconds
+Refreshing native plugins compatible for Editor in 10.45 ms, found 10 plugins.
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal@1e1527b3a17b/Runtime/Data/UniversalRenderPipelineAsset.cs:432)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@1e1527b3a17b/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 432)
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.842 seconds
+Domain Reload Profiling: 1593ms
+	BeginReloadAssembly (234ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (80ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (440ms)
+		LoadAssemblies (342ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (190ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (163ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (842ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (668ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (127ms)
+			ProcessInitializeOnLoadAttributes (393ms)
+			ProcessInitializeOnLoadMethodAttributes (127ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 8.58 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7245 unused Assets / (4.2 MB). Loaded Objects now: 8001.
+Memory consumption went from 146.9 MB to 142.7 MB.
+Total: 8.351700 ms (FindLiveObjects: 1.124100 ms CreateObjectMapping: 0.428000 ms MarkObjects: 4.344700 ms  DeleteObjects: 2.454200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 10.97 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7207 unused Assets / (4.9 MB). Loaded Objects now: 7989.
+Memory consumption went from 146.7 MB to 141.8 MB.
+Total: 11.861300 ms (FindLiveObjects: 1.363700 ms CreateObjectMapping: 1.391100 ms MarkObjects: 5.599600 ms  DeleteObjects: 3.505400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.597 seconds
+Refreshing native plugins compatible for Editor in 7.86 ms, found 10 plugins.
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal@1e1527b3a17b/Runtime/Data/UniversalRenderPipelineAsset.cs:432)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@1e1527b3a17b/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 432)
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.643 seconds
+Domain Reload Profiling: 1240ms
+	BeginReloadAssembly (169ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (369ms)
+		LoadAssemblies (287ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (154ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (128ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (644ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (518ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (100ms)
+			ProcessInitializeOnLoadAttributes (305ms)
+			ProcessInitializeOnLoadMethodAttributes (97ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 7.20 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7245 unused Assets / (4.1 MB). Loaded Objects now: 8003.
+Memory consumption went from 146.9 MB to 142.8 MB.
+Total: 6.508200 ms (FindLiveObjects: 0.641500 ms CreateObjectMapping: 0.586600 ms MarkObjects: 3.521800 ms  DeleteObjects: 1.757900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 24.031188 seconds.
+  path: Assets/Baker'sCorner/Scripts/Baking_Main/CookedFood.cs
+  artifactKey: Guid(29ae8c97b2f24af41999b5f021cd5dee) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Baker'sCorner/Scripts/Baking_Main/CookedFood.cs using Guid(29ae8c97b2f24af41999b5f021cd5dee) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a8673a00f572317c7cface1ec574185b') in 0.125048 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 8.77 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7208 unused Assets / (4.6 MB). Loaded Objects now: 7992.
+Memory consumption went from 146.8 MB to 142.2 MB.
+Total: 8.705400 ms (FindLiveObjects: 0.905900 ms CreateObjectMapping: 0.367200 ms MarkObjects: 4.692000 ms  DeleteObjects: 2.739200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.362131 seconds.
+  path: Assets/Baker'sCorner/Scripts/Baking_Main/PlateReceiver.cs
+  artifactKey: Guid(984daec7c2482cd458c66e6d93bb1bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baker'sCorner/Scripts/Baking_Main/PlateReceiver.cs using Guid(984daec7c2482cd458c66e6d93bb1bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1dd97fc55ee2be9dcdb49022d67a8d4a') in 0.0015386 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.490681 seconds.
+  path: Assets/Baker'sCorner/Scripts/Baking_Main/PlateReceiver.cs
+  artifactKey: Guid(984daec7c2482cd458c66e6d93bb1bf0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Baker'sCorner/Scripts/Baking_Main/PlateReceiver.cs using Guid(984daec7c2482cd458c66e6d93bb1bf0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '998f535fc7524c5426d480847b34fe11') in 0.0118142 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 10.94 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7208 unused Assets / (5.0 MB). Loaded Objects now: 7992.
+Memory consumption went from 146.8 MB to 141.8 MB.
+Total: 11.600600 ms (FindLiveObjects: 1.176100 ms CreateObjectMapping: 1.227900 ms MarkObjects: 5.061900 ms  DeleteObjects: 4.133700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.467604 seconds.
+  path: Assets/Baker'sCorner/Scripts/Baking_Main/PlateReceiver.cs
+  artifactKey: Guid(984daec7c2482cd458c66e6d93bb1bf0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Baker'sCorner/Scripts/Baking_Main/PlateReceiver.cs using Guid(984daec7c2482cd458c66e6d93bb1bf0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8563a9cb278d388f1abbbfbf076642a8') in 0.0133192 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.588 seconds
+Refreshing native plugins compatible for Editor in 7.85 ms, found 10 plugins.
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal@1e1527b3a17b/Runtime/Data/UniversalRenderPipelineAsset.cs:432)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@1e1527b3a17b/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 432)
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.625 seconds
+Domain Reload Profiling: 1211ms
+	BeginReloadAssembly (189ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (64ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (342ms)
+		LoadAssemblies (260ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (151ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (128ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (625ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (500ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (294ms)
+			ProcessInitializeOnLoadMethodAttributes (103ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 7.83 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7246 unused Assets / (3.9 MB). Loaded Objects now: 8006.
+Memory consumption went from 147.0 MB to 143.1 MB.
+Total: 6.228500 ms (FindLiveObjects: 0.720000 ms CreateObjectMapping: 0.562500 ms MarkObjects: 3.446400 ms  DeleteObjects: 1.498900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.342414 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/UITKAssetEditor/PackageResources/BindingPanelRowTemplate.uxml
+  artifactKey: Guid(449c8e5ca27af8e4a9db710c8be5e4df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/UITKAssetEditor/PackageResources/BindingPanelRowTemplate.uxml using Guid(449c8e5ca27af8e4a9db710c8be5e4df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e1aa75850d8c3f3d8cf87b85e331dbed') in 0.0452637 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Building/Materials/Textures/BowlOfPopcorn/PerfectPopcornBalls_DessertPlate9_AlbedoTransparency.png
+  artifactKey: Guid(2ff23264ead74d948899bdfefcfceea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building/Materials/Textures/BowlOfPopcorn/PerfectPopcornBalls_DessertPlate9_AlbedoTransparency.png using Guid(2ff23264ead74d948899bdfefcfceea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '92b57f5eec7413ed04ce8e46d76ccbd4') in 0.0664638 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/Templates/SharedCode.template.hlsl
+  artifactKey: Guid(ed33028ae86f863468162a7c6b0ae962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/Templates/SharedCode.template.hlsl using Guid(ed33028ae86f863468162a7c6b0ae962) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '82d8823855112d6704d65206b5e55aa4') in 0.0014466 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Packages/com.unity.shadergraph/Editor/Generation/Targets/Fullscreen/Templates/SharedCode.template.hlsl
+  artifactKey: Guid(16201fed0715efa48a8908fedb361bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.shadergraph/Editor/Generation/Targets/Fullscreen/Templates/SharedCode.template.hlsl using Guid(16201fed0715efa48a8908fedb361bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f04a597185caac7e95347a43ea74777') in 0.0010158 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Packages/com.unity.shadergraph/Editor/Generation/Targets/BuiltIn/Editor/ShaderGraph/Templates/SharedCode.template.hlsl
+  artifactKey: Guid(d1c01b917a304614daf4994f4ca27e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.shadergraph/Editor/Generation/Targets/BuiltIn/Editor/ShaderGraph/Templates/SharedCode.template.hlsl using Guid(d1c01b917a304614daf4994f4ca27e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'efb34b549bfba01bc60059078909a635') in 0.001301 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

@@ -1,0 +1,1155 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-aweso" at "2025-12-03T13:46:40.2198886Z"
+Built from '6000.2/respin/6000.2.6f2-cc51a95c03' branch; Version is '6000.2.6f2 (4a4dcaec6541) revision 4869578'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) 64bit Core' Language: 'en' Physical Memory: 31967 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2025-12-03T13:46:40Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.2.6f2\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker118
+-projectPath
+C:/Users/aweso/Documents/SugarBound.07
+-logFile
+Logs/AssetImportWorker118.log
+-srvPort
+53752
+-licensingIpc
+LicenseClient-aweso
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/aweso/Documents/SugarBound.07
+C:/Users/aweso/Documents/SugarBound.07
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [108996]  Target information:
+
+Player connection [108996]  * "[IP] 192.168.1.127 [Port] 0 [Flags] 2 [Guid] 1942883926 [EditorId] 1942883926 [Version] 1048832 [Id] WindowsEditor(7,DevinPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [108996] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [108996] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 31572, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.3+a4e98f1
+  Session Id:              9791efaac7ae44fc9a7e8d8bcc9b2db0
+  Correlation Id:          ebc368e6c0632ba8f55a6b47cfb5cd2c
+  External correlation Id: 6143012422948633133
+  Machine Id:              cPCzQz9axXHQmewSXrMKmPRaxqY=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-aweso" (connect: 0.00s, validation: 0.00s, handshake: 0.03s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-aweso-notifications" at "2025-12-03T13:46:40.2533381Z"
+[Licensing::Module] Licensing Background thread has ended after 0.03s
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 1375641944432-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Refreshing native plugins compatible for Editor in 17.99 ms, found 10 plugins.
+Unity memory allocator detected: MetaXRAudio native memory allocations will be tracked.
+Preloading 1 native plugins for Editor in 0.98 ms.
+Initialize engine version: 6000.2.6f2 (4a4dcaec6541)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/aweso/Documents/SugarBound.07/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Ti (ID=0x2803)
+    Vendor:   NVIDIA
+    VRAM:     7949 MB
+    Driver:   32.0.15.8157
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56740
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.004747 seconds.
+- Loaded All Assemblies, in  0.346 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 187 ms
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.449 seconds
+Domain Reload Profiling: 793ms
+	BeginReloadAssembly (107ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (148ms)
+		LoadAssemblies (105ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (144ms)
+			TypeCache.Refresh (143ms)
+				TypeCache.ScanAssembly (132ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (450ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (410ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (260ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (41ms)
+			ProcessInitializeOnLoadAttributes (76ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.664 seconds
+Refreshing native plugins compatible for Editor in 8.29 ms, found 10 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal@1e1527b3a17b/Runtime/Data/UniversalRenderPipelineAsset.cs:432)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@1e1527b3a17b/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 432)
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.725 seconds
+Domain Reload Profiling: 1383ms
+	BeginReloadAssembly (150ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (443ms)
+		LoadAssemblies (309ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (220ms)
+			TypeCache.Refresh (159ms)
+				TypeCache.ScanAssembly (145ms)
+			BuildScriptInfoCaches (47ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (725ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (556ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (106ms)
+			ProcessInitializeOnLoadAttributes (332ms)
+			ProcessInitializeOnLoadMethodAttributes (100ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 8.29 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7250 unused Assets / (4.9 MB). Loaded Objects now: 8006.
+Memory consumption went from 139.0 MB to 134.1 MB.
+Total: 6.535600 ms (FindLiveObjects: 0.644300 ms CreateObjectMapping: 0.221700 ms MarkObjects: 3.915200 ms  DeleteObjects: 1.753600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 119466.516638 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/Textures/Olive ToothPick/Olive_Pick_rough.png
+  artifactKey: Guid(0b7ea8016e169cc45b29dba9c3272cda) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/Textures/Olive ToothPick/Olive_Pick_rough.png using Guid(0b7ea8016e169cc45b29dba9c3272cda) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '241ecf072837cc56f31ceff0e46f5f5d') in 0.2616496 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/Meshes/BreadLoaf.fbx
+  artifactKey: Guid(222884c2e1b666848a44723e8adce151) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/Meshes/BreadLoaf.fbx using Guid(222884c2e1b666848a44723e8adce151) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ed4b9d43ad24aff34c3ef3a4b8f5d249') in 0.0707952 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Prefabs/Jelly.prefab
+  artifactKey: Guid(179c0d9656d946d4aa121daae7c3617f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Prefabs/Jelly.prefab using Guid(179c0d9656d946d4aa121daae7c3617f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd269806a6e2c6119f23bfceae709ed73') in 0.0119295 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/Textures/Olive ToothPick/Olive_Pick_tex.png
+  artifactKey: Guid(443e9cd2af779f14f9f41423b19365c9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/Textures/Olive ToothPick/Olive_Pick_tex.png using Guid(443e9cd2af779f14f9f41423b19365c9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5490ae8bb8cb160e855b08af6df44943') in 0.0459241 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/Textures/Can_01_Opened/Can_01_Open_rough.png
+  artifactKey: Guid(55a9740ac0ebd8f4898587ab36134fd2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/Textures/Can_01_Opened/Can_01_Open_rough.png using Guid(55a9740ac0ebd8f4898587ab36134fd2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c6eb3dc54d54f885369ee0a711772e8f') in 0.0599778 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Prefabs/Can_01_Open.prefab
+  artifactKey: Guid(1f5fae67651144942bb292c84dc3a3d0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Prefabs/Can_01_Open.prefab using Guid(1f5fae67651144942bb292c84dc3a3d0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6e68094aa055ef9049fbb6db255fad67') in 0.0130814 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/Textures/Tomato Slice/Tomato_rough.png
+  artifactKey: Guid(394dde0bede40a14aa1e6f39ee339776) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/Textures/Tomato Slice/Tomato_rough.png using Guid(394dde0bede40a14aa1e6f39ee339776) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '49e7bc8e5d1c1b43652d1a2a1cca2c01') in 0.042891 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Prefabs/Milk.prefab
+  artifactKey: Guid(89007df4c2aaffb4b894f5a3ca0af6bb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Prefabs/Milk.prefab using Guid(89007df4c2aaffb4b894f5a3ca0af6bb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5fb26e012ff4cdde4fcd0190c1f0f696') in 0.0134088 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Prefabs/SodaCan_03.prefab
+  artifactKey: Guid(1c83fd0a6835d6049b74069744f7455f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Prefabs/SodaCan_03.prefab using Guid(1c83fd0a6835d6049b74069744f7455f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c84b5aeefa16f3bf05fdf850b636fa1c') in 0.0123065 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/Textures/Can_01/Can_01_rough.png
+  artifactKey: Guid(f49f725be371e664e9fdbb29f25ebd73) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/Textures/Can_01/Can_01_rough.png using Guid(f49f725be371e664e9fdbb29f25ebd73) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f8fe10ae77d3bf48bd6ba0137da36509') in 0.0352696 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Materials/JuiceBox.mat
+  artifactKey: Guid(f396bdea40b9c6246bfc0d9b9583683c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Materials/JuiceBox.mat using Guid(f396bdea40b9c6246bfc0d9b9583683c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ecd172111dcfc6c1fd263e6d0c143e08') in 0.0201913 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Prefabs/Can Opener.prefab
+  artifactKey: Guid(a12b0622305b4eb449ee1ba9f79fecff) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Prefabs/Can Opener.prefab using Guid(a12b0622305b4eb449ee1ba9f79fecff) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '824c052bda0220066a436b5528a6c87f') in 0.0136927 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/URP/Prefabs/Mustard.prefab
+  artifactKey: Guid(182f929bba254c1489644a8e36dafa7c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/URP/Prefabs/Mustard.prefab using Guid(182f929bba254c1489644a8e36dafa7c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4308038668a68b2ac34af520789edea7') in 0.0126192 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/URP/Materials/CandyBar.mat
+  artifactKey: Guid(efb5b498c7ca03f4fb505ac212ac27b9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/URP/Materials/CandyBar.mat using Guid(efb5b498c7ca03f4fb505ac212ac27b9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5d8a20a21df0687aa5aa7c6a25cb00ef') in 0.0906037 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Prefabs/Soda Bottle.prefab
+  artifactKey: Guid(2a6494990ce35c641a72dcbe35f2450e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Prefabs/Soda Bottle.prefab using Guid(2a6494990ce35c641a72dcbe35f2450e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a359844c88b89f57823511f23e833564') in 0.0127844 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Materials/Can_01.mat
+  artifactKey: Guid(56d8db8aaa3de2341926de291ffd94f0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Materials/Can_01.mat using Guid(56d8db8aaa3de2341926de291ffd94f0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1eb5294415c90d0e25ffb4da4ff0a73f') in 0.0130857 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/Textures/Lettuce/Lettuce_tex.png
+  artifactKey: Guid(ff074a2d88bcf4445af1b6ebde5d8d00) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/Textures/Lettuce/Lettuce_tex.png using Guid(ff074a2d88bcf4445af1b6ebde5d8d00) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '238311ce7c59c0a4552210eba932bc82') in 0.0456894 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/Textures/Ketchup/Ketchup_rough.png
+  artifactKey: Guid(e0285f66e589f6c429a34af3e4abf0aa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/Textures/Ketchup/Ketchup_rough.png using Guid(e0285f66e589f6c429a34af3e4abf0aa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '785ae2b3badaaa475da56b75e4708a6e') in 0.034105 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/Textures/Peanut Butter/PB_tex.png
+  artifactKey: Guid(d7bf0f3e5731202468fe4c7aa242b028) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/Textures/Peanut Butter/PB_tex.png using Guid(d7bf0f3e5731202468fe4c7aa242b028) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd3ea41fba1753364f4054d0d2fabfd1c') in 0.0474793 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/URP/Materials/SodaCan_03.mat
+  artifactKey: Guid(7210ae5424528e941990ebdee766b351) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/URP/Materials/SodaCan_03.mat using Guid(7210ae5424528e941990ebdee766b351) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3cc7a5024df1ba38b20d5a30678327e9') in 0.0846249 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/Textures/Bread
+  artifactKey: Guid(4d4d89c27f7d9c34c93f3bd7df77b596) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/Textures/Bread using Guid(4d4d89c27f7d9c34c93f3bd7df77b596) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1422b9f6de1c2710dd760e1761cf96c9') in 0.0110314 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/Textures/Chips
+  artifactKey: Guid(f096be55644a7c24c9768852030ded26) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/Textures/Chips using Guid(f096be55644a7c24c9768852030ded26) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'da904254edd9820bdd92f4c00b97260e') in 0.0106776 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/Meshes/Bread.fbx
+  artifactKey: Guid(d5f72ad83fbe42b47a3aff68c15c847d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/Meshes/Bread.fbx using Guid(d5f72ad83fbe42b47a3aff68c15c847d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b419a6fa9f0de18d0883d5f642974b4d') in 0.0160148 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/Textures/Milk/Milk_rough.png
+  artifactKey: Guid(eb678ba43c6b839488a7db4e501115b8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/Textures/Milk/Milk_rough.png using Guid(eb678ba43c6b839488a7db4e501115b8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0eb31de4aebf118aa0a14e639489e57a') in 0.0488376 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/Textures/Jelly/Jelly_rough.png
+  artifactKey: Guid(ebf9fbd30381a55418947129170d4cab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/Textures/Jelly/Jelly_rough.png using Guid(ebf9fbd30381a55418947129170d4cab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b5156be49077a9945a8235063692ac2a') in 0.0484065 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Materials/Tomato Slice.mat
+  artifactKey: Guid(2379a891bda15cf41ab274ea36858be0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Materials/Tomato Slice.mat using Guid(2379a891bda15cf41ab274ea36858be0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6a10ba22f1bc09adda952520561e3f8e') in 0.0683069 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/Meshes/Lunch Meat.fbx
+  artifactKey: Guid(1fb078bb880c3e044b2dfbf710dc7108) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/Meshes/Lunch Meat.fbx using Guid(1fb078bb880c3e044b2dfbf710dc7108) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5393ce90bf128ed78e7fb558a1ad1a4d') in 0.0143496 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/Info/Thank You.txt
+  artifactKey: Guid(918db85a437229c41b53c142b85073ea) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/Info/Thank You.txt using Guid(918db85a437229c41b53c142b85073ea) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7e233dfc3661d65e2995cf2c3ec9c28e') in 0.0120009 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Materials/SodaBottle.mat
+  artifactKey: Guid(da85a25badef45f47b9a776a44ce59d3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Materials/SodaBottle.mat using Guid(da85a25badef45f47b9a776a44ce59d3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ec20454177c527bb5ed16924328f7b9e') in 0.0774815 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Materials/Chips.mat
+  artifactKey: Guid(de87b77bb2ff25b4eb01921c461d04dd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Materials/Chips.mat using Guid(de87b77bb2ff25b4eb01921c461d04dd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4ab0b806183e15e60dd11b39383b1519') in 0.0868134 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Prefabs/Chips.prefab
+  artifactKey: Guid(744a450d5e2b6ff459003310331b7724) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Prefabs/Chips.prefab using Guid(744a450d5e2b6ff459003310331b7724) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a9677fbee7fe2543fd59f13b974488c8') in 0.012586 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/URP/Prefabs/Ketchup.prefab
+  artifactKey: Guid(a05a2ca545669584297c9fd393aec872) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/URP/Prefabs/Ketchup.prefab using Guid(a05a2ca545669584297c9fd393aec872) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '00fea7524e56f38db9b452f80655b175') in 0.011743 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Prefabs/SodaCan_01.prefab
+  artifactKey: Guid(5ecb38baffcb3f94194f7f26ee723668) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Prefabs/SodaCan_01.prefab using Guid(5ecb38baffcb3f94194f7f26ee723668) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ebd1e47c61337bf6d7978f690d31d756') in 0.0111593 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Materials/SodaBottle.mat
+  artifactKey: Guid(6deb856c7d1cb3f42af317eed36b15d0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Materials/SodaBottle.mat using Guid(6deb856c7d1cb3f42af317eed36b15d0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '27e5b7f6d5d6b1a2d835e52eaef331b3') in 0.0281645 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/Info
+  artifactKey: Guid(655d39de865cdb648b14fadced11db48) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/Info using Guid(655d39de865cdb648b14fadced11db48) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'eae6940e39118811da40fbfbddd7ae6d') in 0.0110543 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Prefabs/Sardines.prefab
+  artifactKey: Guid(fe0856fd57d9e4645b17fb344ac2b2c6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Prefabs/Sardines.prefab using Guid(fe0856fd57d9e4645b17fb344ac2b2c6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bf1796104230bfbf6bf0b461ed952b7f') in 0.0132752 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/Textures/Peanut Butter/PB_rough.png
+  artifactKey: Guid(9ac96810b963b5d478f5d10118a36a16) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/Textures/Peanut Butter/PB_rough.png using Guid(9ac96810b963b5d478f5d10118a36a16) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a73cf86220f8a49a451e77cdc1cf5b05') in 0.0421061 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Materials/White Egg.mat
+  artifactKey: Guid(33e43ddecc143a5448f8ec700c57dfb9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Materials/White Egg.mat using Guid(33e43ddecc143a5448f8ec700c57dfb9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '71beef1cda7344f2dd6f097562434b9a') in 0.0731453 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/URP/Materials/Cheese Wedge.mat
+  artifactKey: Guid(2b7d60502a5da674db31f13827691a99) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/URP/Materials/Cheese Wedge.mat using Guid(2b7d60502a5da674db31f13827691a99) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4bccaa5b50b8f64364e898cbce0c40b7') in 0.0260582 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/Meshes/Milk.fbx
+  artifactKey: Guid(08aaa337245cc4948a1834fca92ecfa1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/Meshes/Milk.fbx using Guid(08aaa337245cc4948a1834fca92ecfa1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e42f7721637034d6ac8756bfb26e9298') in 0.0171583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/Textures/Eggs
+  artifactKey: Guid(e63bc9d0fa996f8438a027785f38bab0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/Textures/Eggs using Guid(e63bc9d0fa996f8438a027785f38bab0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '828bd64cb6bd3d605701b70babb676c7') in 0.0109973 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/Textures/Eggs/Cracked Egg_rough.png
+  artifactKey: Guid(a79c21b621cc61b4f9a7ba66187fbeaa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/Textures/Eggs/Cracked Egg_rough.png using Guid(a79c21b621cc61b4f9a7ba66187fbeaa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '48139852aaf234336d1d2e1a34277d97') in 0.0441943 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/Textures/Juice Box/JuiceBox_tex.png
+  artifactKey: Guid(8acadeef4fa662344930b14c673b0ccd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/Textures/Juice Box/JuiceBox_tex.png using Guid(8acadeef4fa662344930b14c673b0ccd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4442110ae3cf635afbce11b4551a3608') in 0.0443328 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/Textures/Soda Bottle/SodaBottle_tex.png
+  artifactKey: Guid(873a76eda23826147822b946029d0434) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/Textures/Soda Bottle/SodaBottle_tex.png using Guid(873a76eda23826147822b946029d0434) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '090d3ce6ebc25f5b360dd2f2f7abc0fe') in 0.0465176 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/URP
+  artifactKey: Guid(1859ce1570840a0499058e3740955e3d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/URP using Guid(1859ce1570840a0499058e3740955e3d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0a41c243461b2fddb176756ed17389a1') in 0.0112553 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Prefabs/CandyBar.prefab
+  artifactKey: Guid(fb2099e4cb5f8d6438f9786911fd67dc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Prefabs/CandyBar.prefab using Guid(fb2099e4cb5f8d6438f9786911fd67dc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c0ac514c896fca868adfe65fcfb56dcb') in 0.0123373 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/URP/Prefabs/Juice Box.prefab
+  artifactKey: Guid(10cd68e2f1f3d8d49afff78a8f51bde4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/URP/Prefabs/Juice Box.prefab using Guid(10cd68e2f1f3d8d49afff78a8f51bde4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '818b1923c59fa0c318b5ca4faec0aac8') in 0.0124223 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Prefabs/Ketchup.prefab
+  artifactKey: Guid(1682637577a84884494f66efd4c0f5ad) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Prefabs/Ketchup.prefab using Guid(1682637577a84884494f66efd4c0f5ad) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8fb95920e94d09571cd222f7c2ad3ca9') in 0.0122725 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Prefabs/Mustard.prefab
+  artifactKey: Guid(d97be5c052b03b142a533288f0dc1530) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Prefabs/Mustard.prefab using Guid(d97be5c052b03b142a533288f0dc1530) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aa14825e7eef794e4bf88c060ffa6a2a') in 0.0136612 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Materials/Can_01_Opened.mat
+  artifactKey: Guid(174ee54cd5a9c1548b4330e85f4cb7d8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Materials/Can_01_Opened.mat using Guid(174ee54cd5a9c1548b4330e85f4cb7d8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dd706533a0e9fc6ccb9140c035330aaf') in 0.0682166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/URP/Prefabs/Sardines.prefab
+  artifactKey: Guid(885787fceb60ba749a0225237bd9b8c8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/URP/Prefabs/Sardines.prefab using Guid(885787fceb60ba749a0225237bd9b8c8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b681846763d3598f606b4df97fe67516') in 0.0106471 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/Textures/Candy Bar/Candybar_rough.png
+  artifactKey: Guid(e5a4812564025864ca77f7f7389b60d1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/Textures/Candy Bar/Candybar_rough.png using Guid(e5a4812564025864ca77f7f7389b60d1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7382addca400f042b11be92992f67eea') in 0.0382499 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/Meshes/Cheese Wedge.fbx
+  artifactKey: Guid(acad2b27c2581aa498bf805ddba781a7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/Meshes/Cheese Wedge.fbx using Guid(acad2b27c2581aa498bf805ddba781a7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1e94558c079a9522211679ee1460d60f') in 0.0175201 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Materials/Peanut Butter.mat
+  artifactKey: Guid(a5502e41402dba9438f0bd947bcd9210) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Materials/Peanut Butter.mat using Guid(a5502e41402dba9438f0bd947bcd9210) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '20274b04f3df5af79502c25a16591951') in 0.0860913 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.415135 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/Meshes/Can_01.fbx
+  artifactKey: Guid(78876c78629d7b74797b48bf2b7a4034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/Meshes/Can_01.fbx using Guid(78876c78629d7b74797b48bf2b7a4034) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)CommandBuffer: temporary render texture  not found while executing  (Copy source)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rendering.ScriptableRenderContext:Submit ()
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.UniversalCameraData) (at ./Library/PackageCache/com.unity.render-pipelines.universal@1e1527b3a17b/Runtime/UniversalRenderPipeline.cs:891)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera,UnityEngine.Rendering.Universal.UniversalAdditionalCameraData&,bool) (at ./Library/PackageCache/com.unity.render-pipelines.universal@1e1527b3a17b/Runtime/UniversalRenderPipeline.cs:691)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera,bool) (at ./Library/PackageCache/com.unity.render-pipelines.universal@1e1527b3a17b/Runtime/UniversalRenderPipeline.cs:666)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@1e1527b3a17b/Runtime/UniversalRenderPipeline.cs:483)
+UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,UnityEngine.Object,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEngine.Camera:Render ()
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview (UnityEditor.GameObjectInspector/PreviewData)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[./Library/PackageCache/com.unity.render-pipelines.universal@1e1527b3a17b/Runtime/UniversalRenderPipeline.cs line 891]
+
+CommandBuffer: temporary render texture  not found while executing  (Copy destination)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rendering.ScriptableRenderContext:Submit ()
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.UniversalCameraData) (at ./Library/PackageCache/com.unity.render-pipelines.universal@1e1527b3a17b/Runtime/UniversalRenderPipeline.cs:891)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera,UnityEngine.Rendering.Universal.UniversalAdditionalCameraData&,bool) (at ./Library/PackageCache/com.unity.render-pipelines.universal@1e1527b3a17b/Runtime/UniversalRenderPipeline.cs:691)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera,bool) (at ./Library/PackageCache/com.unity.render-pipelines.universal@1e1527b3a17b/Runtime/UniversalRenderPipeline.cs:666)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@1e1527b3a17b/Runtime/UniversalRenderPipeline.cs:483)
+UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,UnityEngine.Object,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEngine.Camera:Render ()
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview (UnityEditor.GameObjectInspector/PreviewData)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[./Library/PackageCache/com.unity.render-pipelines.universal@1e1527b3a17b/Runtime/UniversalRenderPipeline.cs line 891]
+
+ -> (artifact id: '29a6472b4774e7f917f12edff12c543b') in 0.2495501 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/Meshes/SodaCan.fbx
+  artifactKey: Guid(741df4fc8f5203444b0ff9f35844c64b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/Meshes/SodaCan.fbx using Guid(741df4fc8f5203444b0ff9f35844c64b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '127027cf13f7e52405be800642f21877') in 0.0212878 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/Meshes/Egg.fbx
+  artifactKey: Guid(c3eede02d03bc7f4aaf45e77eb1637ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/Meshes/Egg.fbx using Guid(c3eede02d03bc7f4aaf45e77eb1637ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5b671ea6aac3c024118d366c76089fa2') in 0.0156075 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/Meshes/Jelly.fbx
+  artifactKey: Guid(9376524a4d4ffcb4090de53e47eff61c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/Meshes/Jelly.fbx using Guid(9376524a4d4ffcb4090de53e47eff61c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dec4a35cee29913a01584b5d4096fc09') in 0.0202254 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/Meshes/CandyBar.fbx
+  artifactKey: Guid(4b42ba90ef7b4ae48b10f1a7ccf5cf71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/Meshes/CandyBar.fbx using Guid(4b42ba90ef7b4ae48b10f1a7ccf5cf71) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '35d73ac8cce042d3392aad0a257baa4b') in 0.0158557 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.872268 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Prefabs/Can_01.prefab
+  artifactKey: Guid(2d21a69ab6769b949b04a940e8e703f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Prefabs/Can_01.prefab using Guid(2d21a69ab6769b949b04a940e8e703f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd028f0ce8edbd6880160ce91b2663c1e') in 0.0656984 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Prefabs/Peanut Butter.prefab
+  artifactKey: Guid(f184b0e0c7ed94447b422103a046e14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Prefabs/Peanut Butter.prefab using Guid(f184b0e0c7ed94447b422103a046e14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd99b0a997e356058a4b725bf4684999') in 0.0731595 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Prefabs/Tomato Slice.prefab
+  artifactKey: Guid(5011306cb1a648d49b82531e22e5c2d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Prefabs/Tomato Slice.prefab using Guid(5011306cb1a648d49b82531e22e5c2d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '23a54106e7a4cd59aeff4e22e0595e72') in 0.0576423 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Prefabs/Soda Bottle.prefab
+  artifactKey: Guid(694469381d1e67949bafb234826f6138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Prefabs/Soda Bottle.prefab using Guid(694469381d1e67949bafb234826f6138) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'baec28a7e45708460554c9e84b00f197') in 0.0737067 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Prefabs/Chips.prefab
+  artifactKey: Guid(e1a8dd6a843359e4d81647b96c447ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Prefabs/Chips.prefab using Guid(e1a8dd6a843359e4d81647b96c447ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '628ffd6b6ba061c709cbd3fdf94373d7') in 0.0588996 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Prefabs/Juice Box.prefab
+  artifactKey: Guid(8adc92fd99f481a42bd8aa1044eef821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Prefabs/Juice Box.prefab using Guid(8adc92fd99f481a42bd8aa1044eef821) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '68730e264457e32b14fff5cc1bb8ff2e') in 0.0613893 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Prefabs/CandyBar.prefab
+  artifactKey: Guid(7791ca67796beb442a30f1a9f0ea5f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Prefabs/CandyBar.prefab using Guid(7791ca67796beb442a30f1a9f0ea5f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a38975931e55ed93438aad9c57d71081') in 0.0631642 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Prefabs/Lettuce.prefab
+  artifactKey: Guid(a3ec8a5f4317cd84cae2e2202a719cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Prefabs/Lettuce.prefab using Guid(a3ec8a5f4317cd84cae2e2202a719cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc7bf0c5d2ec766881b9e2230485608c') in 0.0530263 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.161583 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Materials/Can_01_Opened.mat
+  artifactKey: Guid(0fd67ba3d49a41a4b96f7cc075450238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Materials/Can_01_Opened.mat using Guid(0fd67ba3d49a41a4b96f7cc075450238) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a8c07410889d6b1bd89216c3a16e9d57') in 0.0774181 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Materials/Glass.mat
+  artifactKey: Guid(103e8dee63878f84cb6e2e2200dec342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Materials/Glass.mat using Guid(103e8dee63878f84cb6e2e2200dec342) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e5fc4b45ee54c5657ce96232f47ec609') in 0.0055206 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Materials/JuiceBox.mat
+  artifactKey: Guid(f396bdea40b9c6246bfc0d9b9583683c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Materials/JuiceBox.mat using Guid(f396bdea40b9c6246bfc0d9b9583683c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '72d0c663cce3798071163a3b69f7823d') in 0.0698615 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Materials/Lettuce.mat
+  artifactKey: Guid(59d8d90bc6975b04796dae5ddbea22e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Materials/Lettuce.mat using Guid(59d8d90bc6975b04796dae5ddbea22e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd144612ec1abcd6681cfd2ae2335aa34') in 0.0568072 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Materials/SodaBottle.mat
+  artifactKey: Guid(6deb856c7d1cb3f42af317eed36b15d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Materials/SodaBottle.mat using Guid(6deb856c7d1cb3f42af317eed36b15d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ccc958000b8ec9cb251c247929b304f8') in 0.0680963 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Materials/CandyBar.mat
+  artifactKey: Guid(ef7772d7845d49e4684c89df00ef359b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Materials/CandyBar.mat using Guid(ef7772d7845d49e4684c89df00ef359b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '707b8844cf8502364c31ef935aa003b7') in 0.0621885 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Materials/SodaCan_03.mat
+  artifactKey: Guid(694a3968833aa304f94b4c09eb9dc613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/HDRP/Materials/SodaCan_03.mat using Guid(694a3968833aa304f94b4c09eb9dc613) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff6acea67f8ddc96f4dd0f175edee9be') in 0.065785 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.409583 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Prefabs/Can_01.prefab
+  artifactKey: Guid(3b764896eeba22142927a79b6a42ab6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Prefabs/Can_01.prefab using Guid(3b764896eeba22142927a79b6a42ab6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ef2f48b68a30d2221fdd2176391552a') in 0.0680249 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Prefabs/Ketchup.prefab
+  artifactKey: Guid(243e8ac118623dc47b308100e6558aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Prefabs/Ketchup.prefab using Guid(243e8ac118623dc47b308100e6558aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c32fb5ba099ba25aa9b9474e57533aa') in 0.0767582 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Prefabs/Chips.prefab
+  artifactKey: Guid(744a450d5e2b6ff459003310331b7724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Prefabs/Chips.prefab using Guid(744a450d5e2b6ff459003310331b7724) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '84b232270cbf93215d064377a680d4f5') in 0.0620303 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Prefabs/Juice Box.prefab
+  artifactKey: Guid(ec32937d1aa9c2441b9ccad69faa7dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Prefabs/Juice Box.prefab using Guid(ec32937d1aa9c2441b9ccad69faa7dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ea138c13da14518ae3df668c3426309f') in 0.0841748 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Prefabs/CandyBar.prefab
+  artifactKey: Guid(fb2099e4cb5f8d6438f9786911fd67dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Prefabs/CandyBar.prefab using Guid(fb2099e4cb5f8d6438f9786911fd67dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c49f0326016d9e5377539b7da22d9dc6') in 0.0683036 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Prefabs/CrackedEgg.prefab
+  artifactKey: Guid(f84be27a5e7560841b0beaf075064038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Prefabs/CrackedEgg.prefab using Guid(f84be27a5e7560841b0beaf075064038) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2088cf676525f1abdf5276da436dd71d') in 0.0699836 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Prefabs/Milk.prefab
+  artifactKey: Guid(89007df4c2aaffb4b894f5a3ca0af6bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Prefabs/Milk.prefab using Guid(89007df4c2aaffb4b894f5a3ca0af6bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7295d680f8ca10773f2726b4db8e7b68') in 0.0735465 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.763467 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Materials/Can_01_Opened.mat
+  artifactKey: Guid(174ee54cd5a9c1548b4330e85f4cb7d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Materials/Can_01_Opened.mat using Guid(174ee54cd5a9c1548b4330e85f4cb7d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b14626c13f21ee62b58e671369218f24') in 0.0853487 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Materials/Lunch Meat.mat
+  artifactKey: Guid(82ab2cd2ef97b1b408b38f4c345c3954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Materials/Lunch Meat.mat using Guid(82ab2cd2ef97b1b408b38f4c345c3954) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '679e88e1376ce9100a979749cbf3e8f9') in 0.0645223 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Materials/Plane.mat
+  artifactKey: Guid(398c18e3b0ecfff45b3ba190143976b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Materials/Plane.mat using Guid(398c18e3b0ecfff45b3ba190143976b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c24caac7dc32cf8ebd9e9548ade3d201') in 0.0079515 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Materials/Ketchup.mat
+  artifactKey: Guid(b0c534036372579418df2271b181ac1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Materials/Ketchup.mat using Guid(b0c534036372579418df2271b181ac1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c430dcf32eba8eded717445df71fce4') in 0.0593674 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Materials/Sardines.mat
+  artifactKey: Guid(70b119e8666a4f9488aa00ef9c3ec4e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Materials/Sardines.mat using Guid(70b119e8666a4f9488aa00ef9c3ec4e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '48ef8e4c5d14071f96e76ce1c10061a8') in 0.0683008 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Materials/SodaCan_01.mat
+  artifactKey: Guid(bbdda9b11e454124cb881bffbbd2eb74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Materials/SodaCan_01.mat using Guid(bbdda9b11e454124cb881bffbbd2eb74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '13d8c70d1d2bff5129cbe6eab5f6e083') in 0.0706507 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Materials/Lettuce.mat
+  artifactKey: Guid(cefc1d3edae3016458e36ec7b89341c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Materials/Lettuce.mat using Guid(cefc1d3edae3016458e36ec7b89341c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '08e73fa7a263ea868a50ed847bdb1756') in 0.0575435 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.962332 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Materials/Can_01_Opened.mat
+  artifactKey: Guid(174ee54cd5a9c1548b4330e85f4cb7d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Materials/Can_01_Opened.mat using Guid(174ee54cd5a9c1548b4330e85f4cb7d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '40bf83604663d59aed576862d46c5846') in 0.0902558 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Materials/Lunch Meat.mat
+  artifactKey: Guid(82ab2cd2ef97b1b408b38f4c345c3954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Materials/Lunch Meat.mat using Guid(82ab2cd2ef97b1b408b38f4c345c3954) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '88b9e5035e7b45c476ac23afe7d3cf5d') in 0.0644825 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Materials/Plane.mat
+  artifactKey: Guid(398c18e3b0ecfff45b3ba190143976b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Materials/Plane.mat using Guid(398c18e3b0ecfff45b3ba190143976b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2bc43bb2b6e3c0e243e727f9a40cdd80') in 0.0275148 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Materials/Ketchup.mat
+  artifactKey: Guid(b0c534036372579418df2271b181ac1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Materials/Ketchup.mat using Guid(b0c534036372579418df2271b181ac1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ba9be2c31876a6aa5868c757f0587350') in 0.083629 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Materials/Chips.mat
+  artifactKey: Guid(de87b77bb2ff25b4eb01921c461d04dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Materials/Chips.mat using Guid(de87b77bb2ff25b4eb01921c461d04dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bca4f413b3e42a3b3f293ac4ffe0c3ad') in 0.0849082 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Materials/SodaCan_01.mat
+  artifactKey: Guid(bbdda9b11e454124cb881bffbbd2eb74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Materials/SodaCan_01.mat using Guid(bbdda9b11e454124cb881bffbbd2eb74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '282521bef0840ea2c3fe17cf2aa610eb') in 0.0921219 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Materials/Cheese Slice.mat
+  artifactKey: Guid(b3ee6238b129e1444ae283869d5f1b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Materials/Cheese Slice.mat using Guid(b3ee6238b129e1444ae283869d5f1b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7ebdf8c6759e2af9c7f1f91c25b0ab51') in 0.0799408 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.154405 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Materials/Lunch Meat.mat
+  artifactKey: Guid(82ab2cd2ef97b1b408b38f4c345c3954) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Materials/Lunch Meat.mat using Guid(82ab2cd2ef97b1b408b38f4c345c3954) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9329fc116f69f1ea07f57f0f6296cfd5') in 0.0687513 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Materials/Jelly.mat
+  artifactKey: Guid(a0be5efe45523ac4590d3f21dc8e063b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Materials/Jelly.mat using Guid(a0be5efe45523ac4590d3f21dc8e063b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '75168974aa2c3b257a3c5269e0e2c699') in 0.0896374 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Materials/Cheese Wedge.mat
+  artifactKey: Guid(47f44ac3249456445a1b12686a32dddc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Materials/Cheese Wedge.mat using Guid(47f44ac3249456445a1b12686a32dddc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '288c097652c6f44bf5d8b8f81a59e540') in 0.031259 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Materials/Mustard.mat
+  artifactKey: Guid(f7074dbcc2c6eab42b62f7da24cc3021) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Materials/Mustard.mat using Guid(f7074dbcc2c6eab42b62f7da24cc3021) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f483899392b8a4ed6ff7633c5db5fd77') in 0.070365 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Materials/Chips.mat
+  artifactKey: Guid(de87b77bb2ff25b4eb01921c461d04dd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Materials/Chips.mat using Guid(de87b77bb2ff25b4eb01921c461d04dd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ec29684efc534174dcfad19954bbd391') in 0.0659813 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Materials/Can_01.mat
+  artifactKey: Guid(a2693aa2eb89ce74dafe1a30c4c2c5e6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Materials/Can_01.mat using Guid(a2693aa2eb89ce74dafe1a30c4c2c5e6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b52d0859ca5423eac953b4536a64bc07') in 0.0656732 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Materials/Lettuce.mat
+  artifactKey: Guid(cefc1d3edae3016458e36ec7b89341c1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Materials/Lettuce.mat using Guid(cefc1d3edae3016458e36ec7b89341c1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '22e8ce8a287575c7c879fd02e7e79abb') in 0.0666604 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.023858 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Prefabs/Can_01.prefab
+  artifactKey: Guid(3b764896eeba22142927a79b6a42ab6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Prefabs/Can_01.prefab using Guid(3b764896eeba22142927a79b6a42ab6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c4b30c2d075f646f3f70b1068d3e3c0b') in 0.0817974 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Prefabs/Ketchup.prefab
+  artifactKey: Guid(243e8ac118623dc47b308100e6558aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Prefabs/Ketchup.prefab using Guid(243e8ac118623dc47b308100e6558aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7e329375103810f805385b1203c3ba90') in 0.0750857 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Prefabs/Mustard.prefab
+  artifactKey: Guid(8c87b22654e42a349aa76ec15fcb1f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Prefabs/Mustard.prefab using Guid(8c87b22654e42a349aa76ec15fcb1f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a6495d1029802605775e07aeef1444e') in 0.0826857 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Prefabs/Juice Box.prefab
+  artifactKey: Guid(ec32937d1aa9c2441b9ccad69faa7dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Prefabs/Juice Box.prefab using Guid(ec32937d1aa9c2441b9ccad69faa7dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c654acd8e27950b4216dc6fc845703dd') in 0.091535 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Prefabs/CandyBar.prefab
+  artifactKey: Guid(fb2099e4cb5f8d6438f9786911fd67dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Prefabs/CandyBar.prefab using Guid(fb2099e4cb5f8d6438f9786911fd67dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '376214d015b358807c19e041ee9cb772') in 0.0788565 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Prefabs/CrackedEgg.prefab
+  artifactKey: Guid(f84be27a5e7560841b0beaf075064038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Prefabs/CrackedEgg.prefab using Guid(f84be27a5e7560841b0beaf075064038) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '80611ae6fc016b2d9ac9534a34ef68e8') in 0.078917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Prefabs/Milk.prefab
+  artifactKey: Guid(89007df4c2aaffb4b894f5a3ca0af6bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CrowAssets/Assets/Low Poly Stylized Food/BuiltIn/Prefabs/Milk.prefab using Guid(89007df4c2aaffb4b894f5a3ca0af6bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f646bba72a5e0fe2a77550c2b8c002f7') in 0.0857353 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
